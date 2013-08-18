@@ -1,0 +1,2473 @@
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.222222 66.406366 0.180000
+ieBHat=66.406366, blenHat=0.180000, ieGHat=0.000000, glenHat=0.540000, mieHat=0.000000
+#pkts=63.000000, #received=61.000000, #losses=2.000000, lratio=0.031746, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003937 1.176491 5.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=298.828645, blenHat=0.020000, ieGHat=0.588245, glenHat=4.570000, mieHat=0.000000
+#pkts=458.000000, #received=456.000000, #losses=2.000000, lratio=0.004367, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.005479 1.637417 7.300000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004975 1.486710 4.020000
+
+Loss Burst -> Gap 0.750000 224.121484 0.160000
+Loss Gap -> Burst, 0.001193 0.356597 16.760000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.021277 6.358056 0.940000
+
+Loss Burst -> Gap 0.200000 59.765729 0.100000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=220.386126, blenHat=0.085000, ieGHat=2.096840, glenHat=7.656000, mieHat=0.606144
+#pkts=1931.000000, #received=1914.000000, #losses=17.000000, lratio=0.008804, RScoreHat=89.093856
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=220.386126, blenHat=0.085000, ieGHat=0.000000, glenHat=0.900000, mieHat=0.000000
+#pkts=45.000000, #received=45.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.006623 1.978998 3.020000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+ieBHat=199.219097, blenHat=0.060000, ieGHat=0.989499, glenHat=4.810000, mieHat=0.000000
+#pkts=484.000000, #received=481.000000, #losses=3.000000, lratio=0.006198, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000746 0.222840 26.820000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.006369 1.903367 3.140000
+
+Loss Burst -> Gap 0.419355 125.315238 0.620000
+Loss Gap -> Burst, 0.008197 2.449415 7.320000
+
+Loss Burst -> Gap 0.777778 232.422279 0.180000
+Loss Gap -> Burst, 0.008584 2.565053 4.660000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.011905 3.557484 1.680000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.009091 2.716624 2.200000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.013575 4.056497 4.420000
+
+Loss Burst -> Gap 0.500000 149.414322 0.520000
+Loss Gap -> Burst, 0.002907 0.868688 6.880000
+
+Loss Burst -> Gap 0.428571 128.069419 0.140000
+Loss Gap -> Burst, 0.004167 1.245119 4.800000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.050000 14.941432 0.400000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.004802 1.434951 16.660000
+
+Loss Burst -> Gap 0.187500 56.030371 0.320000
+Loss Gap -> Burst, 0.001295 0.387084 15.440000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.000888 0.265390 22.520000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.035714 10.672452 1.120000
+
+Loss Burst -> Gap 0.444444 132.812731 0.360000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=167.364998, blenHat=0.181429, ieGHat=3.201738, glenHat=8.409333, mieHat=1.072945
+#pkts=6434.000000, #received=6354.000000, #losses=80.000000, lratio=0.012434, RScoreHat=88.627055
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002874 0.858703 6.960000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.001723 0.514778 23.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002008 0.600058 9.960000
+
+Loss Burst -> Gap 0.714286 213.449032 0.140000
+Loss Gap -> Burst, 0.004831 1.443617 4.140000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001701 0.508212 11.760000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005814 1.737376 3.440000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.027778 8.300796 0.720000
+
+Loss Burst -> Gap 0.318182 95.081842 0.440000
+Loss Gap -> Burst, 0.025641 7.662273 0.780000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.002358 0.704785 8.480000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.041667 12.451194 0.480000
+
+Loss Burst -> Gap 0.875000 261.475064 0.160000
+Loss Gap -> Burst, 0.002160 0.645418 9.260000
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+Loss Gap -> Burst, 0.001538 0.459736 13.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001619 0.483933 24.700000
+
+Loss Burst -> Gap 0.125000 37.353581 0.320000
+Loss Gap -> Burst, 0.023810 7.114968 0.840000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002475 0.739675 16.160000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.006135 1.833305 3.260000
+
+Loss Burst -> Gap 0.818182 244.496164 0.220000
+Loss Gap -> Burst, 0.022727 6.791560 0.880000
+
+Loss Burst -> Gap 0.421053 125.822587 0.380000
+Loss Gap -> Burst, 0.011364 3.395780 1.760000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.009434 2.819138 2.120000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.044444 13.281273 0.900000
+
+Loss Burst -> Gap 0.260870 77.955299 0.460000
+Loss Gap -> Burst, 0.002581 0.771171 15.500000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+ieBHat=213.912523, blenHat=0.132381, ieGHat=3.323534, glenHat=7.391818, mieHat=1.092863
+#pkts=8270.000000, #received=8175.000000, #losses=95.000000, lratio=0.011487, RScoreHat=88.607137
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=213.912523, blenHat=0.132381, ieGHat=0.000000, glenHat=11.780000, mieHat=0.000000
+#pkts=589.000000, #received=589.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002211 0.660638 27.140000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=149.414322, blenHat=0.120000, ieGHat=1.919833, glenHat=14.510000, mieHat=1.360664
+#pkts=1457.000000, #received=1450.000000, #losses=7.000000, lratio=0.004804, RScoreHat=88.339336
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002899 0.866170 6.900000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=74.707161, blenHat=0.080000, ieGHat=0.703030, glenHat=14.520000, mieHat=0.523224
+#pkts=1456.000000, #received=1452.000000, #losses=4.000000, lratio=0.002747, RScoreHat=89.176776
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=74.707161, blenHat=0.080000, ieGHat=0.552363, glenHat=10.820000, mieHat=0.227365
+#pkts=541.000000, #received=540.000000, #losses=1.000000, lratio=0.001848, RScoreHat=89.472635
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.001652 0.493524 24.220000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+ieBHat=149.414322, blenHat=0.040000, ieGHat=0.246762, glenHat=13.540000, mieHat=0.000000
+#pkts=1356.000000, #received=1353.000000, #losses=3.000000, lratio=0.002212, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.012195 3.644252 1.640000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001756 0.524721 22.780000
+
+Loss Burst -> Gap 0.666667 199.219097 0.240000
+Loss Gap -> Burst, 0.040000 11.953146 1.000000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.006849 2.046772 5.840000
+
+Loss Burst -> Gap 0.333333 99.609548 0.360000
+Loss Gap -> Burst, 0.004264 1.274323 9.380000
+
+Loss Burst -> Gap 0.307692 91.947275 0.260000
+Loss Gap -> Burst, 0.007246 2.165425 11.040000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.004695 1.402951 4.260000
+
+Loss Burst -> Gap 0.400000 119.531458 0.400000
+Loss Gap -> Burst, 0.002928 0.875047 13.660000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=163.397971, blenHat=0.177500, ieGHat=2.836506, glenHat=8.137778, mieHat=0.605542
+#pkts=3733.000000, #received=3685.000000, #losses=48.000000, lratio=0.012858, RScoreHat=89.094458
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.001921 0.574118 20.820000
+
+Loss Burst -> Gap 0.275862 82.435488 0.580000
+Loss Gap -> Burst, 0.002075 0.619976 19.280000
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+Loss Gap -> Burst, 0.010101 3.018471 1.980000
+
+Loss Burst -> Gap 0.454545 135.831202 0.220000
+Loss Gap -> Burst, 0.022472 6.715250 1.780000
+
+Loss Burst -> Gap 0.166667 49.804774 0.120000
+Loss Gap -> Burst, 0.011494 3.434812 1.740000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.003891 1.162757 10.280000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.007380 2.205377 5.420000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.004819 1.440138 8.300000
+
+Loss Burst -> Gap 0.333333 99.609548 0.120000
+Loss Gap -> Burst, 0.002692 0.804384 14.860000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.000938 0.280327 21.320000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.015625 4.669198 1.280000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.006410 1.915568 3.120000
+
+Loss Burst -> Gap 0.375000 112.060742 0.160000
+Loss Gap -> Burst, 0.003843 1.148458 26.020000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.003145 0.939713 6.360000
+
+Loss Burst -> Gap 0.166667 49.804774 0.120000
+Loss Gap -> Burst, 0.002353 0.703126 17.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=155.498624, blenHat=0.125333, ieGHat=1.917512, glenHat=10.328750, mieHat=0.834243
+#pkts=8357.000000, #received=8293.000000, #losses=64.000000, lratio=0.007658, RScoreHat=88.865757
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=155.498624, blenHat=0.125333, ieGHat=0.000000, glenHat=4.900000, mieHat=0.000000
+#pkts=245.000000, #received=245.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002146 0.641263 9.320000
+
+Loss Burst -> Gap 0.272727 81.498721 0.220000
+Loss Gap -> Burst, 0.002611 0.780231 7.660000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003067 0.916652 6.520000
+
+Loss Burst -> Gap 0.642857 192.104129 0.280000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=190.810498, blenHat=0.173333, ieGHat=0.784824, glenHat=7.740000, mieHat=0.000000
+#pkts=1574.000000, #received=1557.000000, #losses=17.000000, lratio=0.010801, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.001142 0.341129 17.520000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003846 1.149341 5.200000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.007018 2.097043 5.700000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.022727 6.791560 0.880000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.047619 14.229935 0.420000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.714286 213.449032 0.140000
+ieBHat=192.104129, blenHat=0.072000, ieGHat=4.101501, glenHat=5.466667, mieHat=4.645106
+#pkts=1658.000000, #received=1641.000000, #losses=17.000000, lratio=0.010253, RScoreHat=85.054894
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000900 0.268973 22.220000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.003802 1.136231 10.520000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.023810 7.114968 0.840000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.007812 2.334599 2.560000
+
+Loss Burst -> Gap 0.433333 129.492413 0.600000
+Loss Gap -> Burst, 0.004630 1.383466 4.320000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Loss Gap -> Burst, 0.008333 2.490239 2.400000
+
+Loss Burst -> Gap 0.153846 45.973638 0.260000
+Loss Gap -> Burst, 0.007812 2.334599 2.560000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.003630 1.084677 11.020000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.003106 0.928039 12.880000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.004464 1.334056 4.480000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.016260 4.859002 2.460000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.002169 0.648218 9.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.003175 0.948662 6.300000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+ieBHat=210.034690, blenHat=0.118462, ieGHat=1.918981, glenHat=6.854286, mieHat=0.000000
+#pkts=4875.000000, #received=4820.000000, #losses=55.000000, lratio=0.011282, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=210.034690, blenHat=0.118462, ieGHat=0.000000, glenHat=13.900000, mieHat=0.000000
+#pkts=695.000000, #received=695.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002927 0.874620 20.500000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003650 1.090615 10.960000
+
+Loss Burst -> Gap 0.555556 166.015914 0.180000
+Loss Gap -> Burst, 0.052632 15.727823 0.380000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.014925 4.460129 2.680000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012987 3.880891 4.620000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.005714 1.707592 7.000000
+
+Loss Burst -> Gap 0.600000 179.297187 0.200000
+Loss Gap -> Burst, 0.002198 0.656766 9.100000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002805 0.838229 14.260000
+
+Loss Burst -> Gap 0.111111 33.203183 0.180000
+Loss Gap -> Burst, 0.000522 0.156128 38.280000
+
+Loss Burst -> Gap 0.481481 143.880459 0.540000
+Loss Gap -> Burst, 0.003436 1.026903 11.640000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.002933 0.876330 6.820000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.033333 9.960955 0.600000
+
+Loss Burst -> Gap 0.583333 174.316710 0.240000
+Loss Gap -> Burst, 0.005076 1.516897 3.940000
+
+Loss Burst -> Gap 0.347826 103.940398 0.460000
+Loss Gap -> Burst, 0.032258 9.639634 0.620000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.005587 1.669434 3.580000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.043478 12.992550 0.920000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.007407 2.213546 5.400000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001706 0.509946 11.720000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.007463 2.230065 2.680000
+
+Loss Burst -> Gap 0.142857 42.689806 0.280000
+Loss Gap -> Burst, 0.019231 5.746705 2.080000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.007143 2.134490 5.600000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.052632 15.727823 0.380000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.024390 7.288504 0.820000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002095 0.626147 38.180000
+
+Loss Burst -> Gap 0.444444 132.812731 0.180000
+Loss Gap -> Burst, 0.020408 6.098544 0.980000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+ieBHat=185.671511, blenHat=0.126400, ieGHat=4.217356, glenHat=7.851538, mieHat=3.220455
+#pkts=10365.000000, #received=10252.000000, #losses=113.000000, lratio=0.010902, RScoreHat=86.479545
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.001639 0.489883 24.400000
+
+Loss Burst -> Gap 0.133333 39.843819 0.300000
+Loss Gap -> Burst, 0.003643 1.088629 10.980000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004505 1.346075 4.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.001799 0.537462 11.120000
+
+Loss Burst -> Gap 0.666667 199.219097 0.300000
+Loss Gap -> Burst, 0.007026 2.099499 8.540000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.002215 0.661857 18.060000
+
+Loss Burst -> Gap 0.285714 85.379613 0.140000
+Loss Gap -> Burst, 0.002532 0.756528 15.800000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003344 0.999427 5.980000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004785 1.429802 4.180000
+
+Loss Burst -> Gap 0.100000 29.882864 0.400000
+Loss Gap -> Burst, 0.016667 4.980477 1.200000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.002472 0.738761 16.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.007752 2.316501 2.580000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.027027 8.076450 1.480000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009009 2.692150 2.220000
+
+Loss Burst -> Gap 0.210526 62.911294 0.380000
+Loss Gap -> Burst, 0.013699 4.093543 1.460000
+
+Loss Burst -> Gap 0.285714 85.379613 0.140000
+Loss Gap -> Burst, 0.021277 6.358056 0.940000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.015385 4.597364 1.300000
+
+Loss Burst -> Gap 0.466667 139.453368 0.300000
+Loss Gap -> Burst, 0.005376 1.606606 3.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003221 0.962411 12.420000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.002070 0.618693 9.660000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.027778 8.300796 0.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003802 1.136231 5.260000
+
+Loss Burst -> Gap 0.181818 54.332481 0.440000
+Loss Gap -> Burst, 0.008373 2.502154 16.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.024390 7.288504 0.820000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002433 0.727077 8.220000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=201.176700, blenHat=0.117600, ieGHat=2.554036, glenHat=7.294615, mieHat=0.522345
+#pkts=9630.000000, #received=9538.000000, #losses=92.000000, lratio=0.009553, RScoreHat=89.177655
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003190 0.953201 12.540000
+
+Loss Burst -> Gap 0.526316 157.278234 0.380000
+Loss Gap -> Burst, 0.002933 0.876330 6.820000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.005988 1.789393 3.340000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.008734 2.609857 4.580000
+
+Loss Burst -> Gap 0.625000 186.767903 0.160000
+Loss Gap -> Burst, 0.003521 1.052214 5.680000
+
+Loss Burst -> Gap 0.181818 54.332481 0.220000
+Loss Gap -> Burst, 0.003650 1.090615 10.960000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.013158 3.931956 1.520000
+
+Loss Burst -> Gap 0.714286 213.449032 0.140000
+Loss Gap -> Burst, 0.010050 3.003303 3.980000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.005814 1.737376 3.440000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+ieBHat=198.026649, blenHat=0.124444, ieGHat=1.704425, glenHat=6.246000, mieHat=0.000000
+#pkts=3179.000000, #received=3137.000000, #losses=42.000000, lratio=0.013212, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003795 1.134075 10.540000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+ieBHat=298.828645, blenHat=0.040000, ieGHat=0.567037, glenHat=6.880000, mieHat=0.000000
+#pkts=690.000000, #received=686.000000, #losses=4.000000, lratio=0.005797, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003683 1.100658 10.860000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005814 1.737376 3.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003367 1.006157 5.940000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.004854 1.450624 4.120000
+
+Loss Burst -> Gap 0.250000 74.707161 0.320000
+Loss Gap -> Burst, 0.007519 2.246832 2.660000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.025641 7.662273 1.560000
+
+Loss Burst -> Gap 0.888889 265.625462 0.180000
+Loss Gap -> Burst, 0.005076 1.516897 3.940000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.012048 3.600345 1.660000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.013216 3.949277 4.540000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.001869 0.558558 10.700000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.026316 7.863912 0.760000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.010471 3.129096 3.820000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.003490 1.043032 11.460000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+ieBHat=217.353143, blenHat=0.086154, ieGHat=2.633217, glenHat=5.402857, mieHat=0.785675
+#pkts=3838.000000, #received=3788.000000, #losses=50.000000, lratio=0.013028, RScoreHat=88.914325
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000794 0.237354 25.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.002203 0.658213 9.080000
+
+Loss Burst -> Gap 0.416667 124.511935 0.240000
+Loss Gap -> Burst, 0.005229 1.562503 15.300000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.014085 4.208854 1.420000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.000417 0.124720 47.920000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.031746 9.486624 1.260000
+
+Loss Burst -> Gap 0.340000 101.601739 1.000000
+Loss Gap -> Burst, 0.013333 3.984382 1.500000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.002594 0.775172 15.420000
+
+Loss Burst -> Gap 0.076923 22.986819 0.260000
+Loss Gap -> Burst, 0.013699 4.093543 1.460000
+
+Loss Burst -> Gap 0.428571 128.069419 0.140000
+Loss Gap -> Burst, 0.008811 2.632851 4.540000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009662 2.887233 4.140000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.003333 0.996095 12.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.020408 6.098544 0.980000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=218.654326, blenHat=0.155385, ieGHat=2.696149, glenHat=10.098571, mieHat=0.566361
+#pkts=7170.000000, #received=7108.000000, #losses=62.000000, lratio=0.008647, RScoreHat=89.133639
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003963 1.184261 15.140000
+
+Loss Burst -> Gap 0.764706 228.516023 0.340000
+Loss Gap -> Burst, 0.003914 1.169584 10.220000
+
+Loss Burst -> Gap 0.178571 53.362258 0.560000
+Loss Gap -> Burst, 0.010870 3.248137 3.680000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001972 0.589406 30.420000
+
+Loss Burst -> Gap 0.833333 249.023871 0.120000
+Loss Gap -> Burst, 0.003185 0.951684 6.280000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.027778 8.300796 0.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.001267 0.378744 31.560000
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=203.912584, blenHat=0.188571, ieGHat=2.258680, glenHat=12.585000, mieHat=0.421571
+#pkts=5100.000000, #received=5054.000000, #losses=46.000000, lratio=0.009020, RScoreHat=89.278429
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002591 0.774167 7.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.020000 5.976573 2.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.100000
+Loss Gap -> Burst, 0.008357 2.497175 7.180000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.005556 1.660159 3.600000
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+Loss Gap -> Burst, 0.026316 7.863912 0.760000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.008230 2.459495 4.860000
+
+Loss Burst -> Gap 0.818182 244.496164 0.220000
+Loss Gap -> Burst, 0.017857 5.336226 1.120000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+ieBHat=241.262088, blenHat=0.091429, ieGHat=3.320963, glenHat=3.782500, mieHat=0.395195
+#pkts=1545.000000, #received=1509.000000, #losses=36.000000, lratio=0.023301, RScoreHat=89.304805
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.007812 2.334599 7.680000
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+Loss Gap -> Burst, 0.012121 3.622165 3.300000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+ieBHat=186.767903, blenHat=0.100000, ieGHat=1.985588, glenHat=4.646667, mieHat=0.000000
+#pkts=707.000000, #received=698.000000, #losses=9.000000, lratio=0.012730, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003745 1.119208 16.020000
+
+Loss Burst -> Gap 0.714286 213.449032 0.280000
+Loss Gap -> Burst, 0.008850 2.644501 2.260000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.008403 2.511165 2.380000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.009346 2.792791 2.140000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.008316 2.485061 9.620000
+
+Loss Burst -> Gap 0.444444 132.812731 0.180000
+Loss Gap -> Burst, 0.002597 0.776178 7.700000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002962 0.884981 20.260000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=164.016947, blenHat=0.114286, ieGHat=1.672557, glenHat=12.032500, mieHat=0.806986
+#pkts=4853.000000, #received=4816.000000, #losses=37.000000, lratio=0.007624, RScoreHat=88.893014
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002451 0.732423 24.480000
+
+Loss Burst -> Gap 0.071429 21.344903 0.280000
+Loss Gap -> Burst, 0.011765 3.515631 1.700000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.011765 3.515631 3.400000
+
+Loss Burst -> Gap 0.538462 160.907732 0.260000
+Loss Gap -> Burst, 0.015625 4.669198 1.280000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.052632 15.727823 0.380000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003788 1.131927 10.560000
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+Loss Gap -> Burst, 0.037037 11.067728 0.540000
+
+Loss Burst -> Gap 0.208333 62.255968 0.480000
+Loss Gap -> Burst, 0.018868 5.638276 1.060000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.000815 0.243643 49.060000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=159.980354, blenHat=0.153333, ieGHat=4.624228, glenHat=10.076000, mieHat=3.910550
+#pkts=5107.000000, #received=5072.000000, #losses=35.000000, lratio=0.006853, RScoreHat=85.789450
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.006369 1.903367 3.140000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.005935 1.773464 6.740000
+
+Loss Burst -> Gap 0.269231 80.453866 0.520000
+Loss Gap -> Burst, 0.003407 1.018156 11.740000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.016667 4.980477 2.400000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.002797 0.835884 28.600000
+
+Loss Burst -> Gap 0.454545 135.831202 0.220000
+Loss Gap -> Burst, 0.004494 1.343050 17.800000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002381 0.711497 8.400000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.833333 249.023871 0.120000
+ieBHat=168.928241, blenHat=0.162857, ieGHat=1.570737, glenHat=10.360000, mieHat=0.000000
+#pkts=4201.000000, #received=4161.000000, #losses=40.000000, lratio=0.009522, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.004317 1.289908 13.900000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.014925 4.460129 2.680000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005076 1.516897 3.940000
+
+Loss Burst -> Gap 0.375000 112.060742 0.160000
+Loss Gap -> Burst, 0.005038 1.505434 7.940000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.010989 3.283831 1.820000
+
+Loss Burst -> Gap 0.166667 49.804774 0.240000
+Loss Gap -> Burst, 0.008475 2.532446 2.360000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Loss Gap -> Burst, 0.003876 1.158251 5.160000
+
+Loss Burst -> Gap 0.642857 192.104129 0.280000
+Loss Gap -> Burst, 0.001803 0.538754 33.280000
+
+Loss Burst -> Gap 0.333333 99.609548 0.120000
+Loss Gap -> Burst, 0.002318 0.692802 25.880000
+
+Loss Burst -> Gap 0.142857 42.689806 0.280000
+Loss Gap -> Burst, 0.021277 6.358056 0.940000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.007246 2.165425 2.760000
+
+Loss Burst -> Gap 0.777778 232.422279 0.180000
+Loss Gap -> Burst, 0.001364 0.407679 14.660000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.003236 0.967083 6.180000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.006961 2.080014 8.620000
+
+Loss Burst -> Gap 0.384615 114.934094 0.260000
+Loss Gap -> Burst, 0.040000 11.953146 0.500000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=172.452831, blenHat=0.132000, ieGHat=2.591646, glenHat=8.835000, mieHat=1.147406
+#pkts=7167.000000, #received=7096.000000, #losses=71.000000, lratio=0.009907, RScoreHat=88.552594
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=172.452831, blenHat=0.132000, ieGHat=0.546804, glenHat=21.860000, mieHat=0.120021
+#pkts=1093.000000, #received=1091.000000, #losses=2.000000, lratio=0.001830, RScoreHat=89.579979
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002890 0.863667 6.920000
+
+Loss Burst -> Gap 0.142857 42.689806 0.420000
+Loss Gap -> Burst, 0.009009 2.692150 2.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006369 1.903367 3.140000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.007042 2.104427 5.680000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002449 0.731825 24.500000
+
+Loss Burst -> Gap 0.344828 103.044360 0.580000
+Loss Gap -> Burst, 0.031250 9.338395 0.640000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005000 1.494143 4.000000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.002294 0.685387 8.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.010417 3.112798 1.920000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.013889 4.150398 1.440000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.005682 1.697890 3.520000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=230.578484, blenHat=0.123636, ieGHat=2.397871, glenHat=5.308333, mieHat=0.000000
+#pkts=3253.000000, #received=3212.000000, #losses=41.000000, lratio=0.012604, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.011173 3.338868 7.160000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.005155 1.540354 3.880000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004673 1.396396 8.560000
+
+Loss Burst -> Gap 0.571429 170.759226 0.140000
+Loss Gap -> Burst, 0.013514 4.038225 4.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004000 1.195315 5.000000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.012658 3.782641 1.580000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.006810 2.035155 17.620000
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+Loss Gap -> Burst, 0.002519 0.752717 7.940000
+
+Loss Burst -> Gap 0.555556 166.015914 0.180000
+Loss Gap -> Burst, 0.001808 0.540133 44.260000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+ieBHat=206.755692, blenHat=0.088889, ieGHat=1.861980, glenHat=10.174000, mieHat=0.818977
+#pkts=5127.000000, #received=5082.000000, #losses=45.000000, lratio=0.008777, RScoreHat=88.881023
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003436 1.026903 5.820000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009615 2.873352 2.080000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.020833 6.225597 0.960000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=239.062916, blenHat=0.046667, ieGHat=2.531463, glenHat=3.370000, mieHat=2.285108
+#pkts=681.000000, #received=674.000000, #losses=7.000000, lratio=0.010279, RScoreHat=87.414892
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.005445 1.627016 11.020000
+
+Loss Burst -> Gap 0.600000 179.297187 0.200000
+Loss Gap -> Burst, 0.007576 2.263853 2.640000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.008658 2.587261 4.620000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.041667 12.451194 0.480000
+
+Loss Burst -> Gap 0.333333 99.609548 0.120000
+Loss Gap -> Burst, 0.019231 5.746705 1.040000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.111111 33.203183 0.180000
+ieBHat=158.047150, blenHat=0.128000, ieGHat=4.112671, glenHat=3.746667, mieHat=3.022145
+#pkts=1156.000000, #received=1134.000000, #losses=22.000000, lratio=0.019031, RScoreHat=86.677855
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=158.047150, blenHat=0.128000, ieGHat=0.298829, glenHat=20.000000, mieHat=0.000000
+#pkts=1000.000000, #received=999.000000, #losses=1.000000, lratio=0.001000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.004587 1.370774 4.360000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.014706 4.394539 1.360000
+
+Loss Burst -> Gap 0.235294 70.312622 0.340000
+Loss Gap -> Burst, 0.003484 1.041215 5.740000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012048 3.600345 3.320000
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+Loss Gap -> Burst, 0.012739 3.806734 3.140000
+
+Loss Burst -> Gap 0.464286 138.741871 0.560000
+Loss Gap -> Burst, 0.010309 3.080708 3.880000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+ieBHat=205.008727, blenHat=0.190000, ieGHat=2.470616, glenHat=3.234286, mieHat=0.000000
+#pkts=1189.000000, #received=1153.000000, #losses=36.000000, lratio=0.030278, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.100000 29.882864 0.200000
+Loss Gap -> Burst, 0.004854 1.450624 4.120000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002169 0.648218 9.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.100000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=209.180051, blenHat=0.106667, ieGHat=0.705600, glenHat=5.400000, mieHat=0.000000
+#pkts=1096.000000, #received=1086.000000, #losses=10.000000, lratio=0.009124, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.010152 3.033793 3.940000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.076923 22.986819 0.260000
+ieBHat=22.986819, blenHat=0.260000, ieGHat=1.516897, glenHat=2.750000, mieHat=1.782285
+#pkts=288.000000, #received=285.000000, #losses=3.000000, lratio=0.010417, RScoreHat=87.917715
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.004237 1.266223 4.720000
+
+Loss Burst -> Gap 0.500000 149.414322 0.360000
+Loss Gap -> Burst, 0.011111 3.320318 3.600000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.011976 3.578786 3.340000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003883 1.160500 10.300000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Loss Gap -> Burst, 0.001471 0.439454 27.200000
+
+Loss Burst -> Gap 1.000000 298.828645 0.140000
+Loss Gap -> Burst, 0.005181 1.548335 3.860000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.875000 261.475064 0.160000
+ieBHat=241.138115, blenHat=0.140000, ieGHat=1.616231, glenHat=9.148571, mieHat=0.000000
+#pkts=3244.000000, #received=3204.000000, #losses=40.000000, lratio=0.012330, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.012739 3.806734 3.140000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.003565 1.065343 11.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009259 2.766932 2.160000
+
+Loss Burst -> Gap 0.200000 59.765729 0.100000
+Loss Gap -> Burst, 0.001949 0.582512 10.260000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.391304 116.932948 0.460000
+ieBHat=193.588992, blenHat=0.160000, ieGHat=1.644304, glenHat=5.840000, mieHat=0.000000
+#pkts=1492.000000, #received=1472.000000, #losses=20.000000, lratio=0.013405, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.004425 1.322251 4.520000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.005747 1.717406 3.480000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.008197 2.449415 4.880000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.031250 9.338395 0.640000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=231.592200, blenHat=0.055000, ieGHat=3.105789, glenHat=4.408000, mieHat=3.077440
+#pkts=1113.000000, #received=1100.000000, #losses=13.000000, lratio=0.011680, RScoreHat=86.622560
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.007299 2.181231 2.740000
+
+Loss Burst -> Gap 0.384615 114.934094 0.260000
+Loss Gap -> Burst, 0.004396 1.313533 9.100000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012739 3.806734 3.140000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004640 1.386676 8.620000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Loss Gap -> Burst, 0.017241 5.152218 1.160000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.006135 1.833305 3.260000
+
+Loss Burst -> Gap 0.777778 232.422279 0.180000
+Loss Gap -> Burst, 0.011628 3.474752 1.720000
+
+Loss Burst -> Gap 0.666667 199.219097 0.120000
+Loss Gap -> Burst, 0.003953 1.181141 5.060000
+
+Loss Burst -> Gap 0.545455 162.997443 0.220000
+Loss Gap -> Burst, 0.002347 0.701476 8.520000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012658 3.782641 1.580000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.003344 0.999427 5.980000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=231.126237, blenHat=0.098182, ieGHat=2.151094, glenHat=5.881667, mieHat=0.000000
+#pkts=3583.000000, #received=3535.000000, #losses=48.000000, lratio=0.013397, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.008333 2.490239 2.400000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.003521 1.052214 11.360000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009259 2.766932 2.160000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.023810 7.114968 0.840000
+
+Loss Burst -> Gap 0.200000 59.765729 0.300000
+Loss Gap -> Burst, 0.003096 0.925166 6.460000
+
+Loss Burst -> Gap 0.400000 119.531458 0.200000
+Loss Gap -> Burst, 0.005348 1.598014 11.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.003914 1.169584 10.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003891 1.162757 10.280000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=190.503261, blenHat=0.100000, ieGHat=2.101146, glenHat=7.157778, mieHat=0.436632
+#pkts=3261.000000, #received=3230.000000, #losses=31.000000, lratio=0.009506, RScoreHat=89.263368
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.013514 4.038225 1.480000
+
+Loss Burst -> Gap 0.181818 54.332481 0.220000
+Loss Gap -> Burst, 0.016129 4.819817 1.240000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009434 2.819138 4.240000
+
+Loss Burst -> Gap 0.125000 37.353581 0.160000
+Loss Gap -> Burst, 0.003704 1.106773 5.400000
+
+Loss Burst -> Gap 0.250000 74.707161 0.320000
+Loss Gap -> Burst, 0.013514 4.038225 1.480000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.003676 1.098635 5.440000
+
+Loss Burst -> Gap 0.428571 128.069419 0.140000
+Loss Gap -> Burst, 0.009479 2.832499 4.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003676 1.098635 10.880000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.034483 10.304436 0.580000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.041667 12.451194 0.480000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.031250 9.338395 0.640000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=152.704260, blenHat=0.123636, ieGHat=4.904179, glenHat=3.280000, mieHat=5.632484
+#pkts=1872.000000, #received=1834.000000, #losses=38.000000, lratio=0.020299, RScoreHat=84.067516
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.018519 5.533864 1.080000
+
+Loss Burst -> Gap 0.071429 21.344903 0.280000
+Loss Gap -> Burst, 0.004454 1.331085 8.980000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006623 1.978998 3.020000
+
+Loss Burst -> Gap 0.833333 249.023871 0.120000
+Loss Gap -> Burst, 0.008475 2.532446 2.360000
+
+Loss Burst -> Gap 0.500000 149.414322 0.160000
+Loss Gap -> Burst, 0.005208 1.556399 3.840000
+
+Loss Burst -> Gap 0.333333 99.609548 0.360000
+Loss Gap -> Burst, 0.006289 1.879425 6.360000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.007407 2.213546 2.700000
+
+Loss Burst -> Gap 0.333333 99.609548 0.360000
+Loss Gap -> Burst, 0.001969 0.588245 10.160000
+
+Loss Burst -> Gap 0.400000 119.531458 0.500000
+Loss Gap -> Burst, 0.026316 7.863912 0.760000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.022222 6.640637 0.900000
+
+Loss Burst -> Gap 0.571429 170.759226 0.140000
+Loss Gap -> Burst, 0.003759 1.123416 10.640000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+ieBHat=157.370150, blenHat=0.194545, ieGHat=2.770164, glenHat=4.365000, mieHat=0.000000
+#pkts=2726.000000, #received=2670.000000, #losses=56.000000, lratio=0.020543, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.181818 54.332481 0.220000
+Loss Gap -> Burst, 0.003831 1.144937 10.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005263 1.572782 3.800000
+
+Loss Burst -> Gap 0.333333 99.609548 0.300000
+Loss Gap -> Burst, 0.008929 2.668113 2.240000
+
+Loss Burst -> Gap 0.095238 28.459871 0.420000
+Loss Gap -> Burst, 0.004608 1.377091 4.340000
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+Loss Gap -> Burst, 0.002681 0.801149 7.460000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.002976 0.889371 6.720000
+
+Loss Burst -> Gap 0.264706 79.101700 0.680000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=154.754625, blenHat=0.257143, ieGHat=1.224562, glenHat=5.487500, mieHat=0.000000
+#pkts=2285.000000, #received=2250.000000, #losses=35.000000, lratio=0.015317, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.055556 16.601591 0.360000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=149.414322, blenHat=0.080000, ieGHat=8.973833, glenHat=2.400000, mieHat=25.035003
+#pkts=244.000000, #received=240.000000, #losses=4.000000, lratio=0.016393, RScoreHat=64.664997
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.014286 4.268981 1.400000
+
+Loss Burst -> Gap 0.555556 166.015914 0.180000
+Loss Gap -> Burst, 0.009804 2.929693 2.040000
+
+Loss Burst -> Gap 0.250000 74.707161 0.400000
+Loss Gap -> Burst, 0.004785 1.429802 4.180000
+
+Loss Burst -> Gap 0.181818 54.332481 0.220000
+Loss Gap -> Burst, 0.007273 2.173299 5.500000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005900 1.763001 13.560000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.004831 1.443617 4.140000
+
+Loss Burst -> Gap 1.000000 298.828645 0.140000
+Loss Gap -> Burst, 0.004926 1.472062 4.060000
+
+Loss Burst -> Gap 0.578947 173.006058 0.380000
+Loss Gap -> Burst, 0.027027 8.076450 0.740000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002506 0.748944 7.980000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003876 1.158251 10.320000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001770 0.528900 11.300000
+
+Loss Burst -> Gap 0.777778 232.422279 0.180000
+Loss Gap -> Burst, 0.002755 0.823219 43.560000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.005249 1.568654 7.620000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+ieBHat=228.583200, blenHat=0.138462, ieGHat=2.027491, glenHat=8.344286, mieHat=0.000000
+#pkts=5931.000000, #received=5857.000000, #losses=74.000000, lratio=0.012477, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003802 1.136231 5.260000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.041667 12.451194 0.480000
+
+Loss Burst -> Gap 0.200000 59.765729 0.200000
+Loss Gap -> Burst, 0.005587 1.669434 3.580000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006173 1.844621 3.240000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.050000 14.941432 0.400000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.002039 0.609233 19.620000
+
+Loss Burst -> Gap 0.200000 59.765729 0.100000
+Loss Gap -> Burst, 0.007042 2.104427 2.840000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004360 1.303032 13.760000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.009009 2.692150 4.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005780 1.727333 6.920000
+
+Loss Burst -> Gap 0.700000 209.180051 0.400000
+Loss Gap -> Burst, 0.001043 0.311604 19.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012987 3.880891 3.080000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.011111 3.320318 1.800000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001727 0.516112 11.580000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=210.053252, blenHat=0.095714, ieGHat=3.464858, glenHat=6.870000, mieHat=2.374414
+#pkts=4876.000000, #received=4823.000000, #losses=53.000000, lratio=0.010870, RScoreHat=87.325586
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003812 1.139118 15.740000
+
+Loss Burst -> Gap 0.714286 213.449032 0.140000
+Loss Gap -> Burst, 0.016667 4.980477 1.200000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.016529 4.939316 2.420000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.666667 199.219097 0.120000
+ieBHat=237.165591, blenHat=0.093333, ieGHat=2.764728, glenHat=9.200000, mieHat=1.507270
+#pkts=1854.000000, #received=1838.000000, #losses=16.000000, lratio=0.008630, RScoreHat=88.192730
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.005394 1.611805 18.540000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.357143 106.724516 0.560000
+ieBHat=106.724516, blenHat=0.560000, ieGHat=0.805902, glenHat=11.190000, mieHat=0.000000
+#pkts=1147.000000, #received=1132.000000, #losses=15.000000, lratio=0.013078, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.013889 4.150398 2.880000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=298.828645, blenHat=0.020000, ieGHat=3.142444, glenHat=4.240000, mieHat=5.302333
+#pkts=425.000000, #received=420.000000, #losses=5.000000, lratio=0.011765, RScoreHat=84.397667
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.005076 1.516897 3.940000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.014085 4.208854 2.840000
+
+Loss Burst -> Gap 0.428571 128.069419 0.280000
+Loss Gap -> Burst, 0.005682 1.697890 3.520000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.007692 2.298682 2.600000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.005405 1.615290 3.700000
+
+Loss Burst -> Gap 1.000000 298.828645 0.160000
+Loss Gap -> Burst, 0.012658 3.782641 1.580000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Loss Gap -> Burst, 0.002793 0.834717 7.160000
+
+Loss Burst -> Gap 0.750000 224.121484 0.160000
+Loss Gap -> Burst, 0.031250 9.338395 0.640000
+
+Loss Burst -> Gap 0.230769 68.960457 0.260000
+Loss Gap -> Burst, 0.002475 0.739675 8.080000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002789 0.833553 14.340000
+
+Loss Burst -> Gap 1.000000 298.828645 0.120000
+Loss Gap -> Burst, 0.003356 1.002781 23.840000
+
+Loss Burst -> Gap 0.250000 74.707161 0.400000
+Loss Gap -> Burst, 0.040000 11.953146 1.000000
+
+Loss Burst -> Gap 0.666667 199.219097 0.360000
+Loss Gap -> Burst, 0.032258 9.639634 0.620000
+
+Loss Burst -> Gap 0.666667 199.219097 0.180000
+Loss Gap -> Burst, 0.001159 0.346267 17.260000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.020000 5.976573 1.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.007752 2.316501 2.580000
+
+Loss Burst -> Gap 0.136364 40.749361 0.440000
+Loss Gap -> Burst, 0.009804 2.929693 4.080000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.001595 0.476601 12.540000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.004132 1.234829 4.840000
+
+Loss Burst -> Gap 0.071429 21.344903 0.280000
+Loss Gap -> Burst, 0.002198 0.656766 9.100000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+ieBHat=183.288535, blenHat=0.164000, ieGHat=3.019018, glenHat=6.339048, mieHat=0.000000
+#pkts=6820.000000, #received=6717.000000, #losses=103.000000, lratio=0.015103, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=183.288535, blenHat=0.164000, ieGHat=0.000000, glenHat=7.800000, mieHat=0.000000
+#pkts=390.000000, #received=390.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.027027 8.076450 0.740000
+
+Loss Burst -> Gap 0.125000 37.353581 0.320000
+Loss Gap -> Burst, 0.002994 0.894697 6.680000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.032258 9.639634 0.620000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002315 0.691733 8.640000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002976 0.889371 6.720000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.004950 1.479350 4.040000
+
+Loss Burst -> Gap 0.250000 74.707161 0.320000
+Loss Gap -> Burst, 0.006042 1.805611 6.620000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.004049 1.209833 9.880000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002489 0.743725 40.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.055556 16.601591 0.360000
+
+Loss Burst -> Gap 0.733333 219.141006 0.300000
+Loss Gap -> Burst, 0.040000 11.953146 0.500000
+
+Loss Burst -> Gap 0.357143 106.724516 0.280000
+Loss Gap -> Burst, 0.007042 2.104427 2.840000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003683 1.100658 10.860000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.018072 5.400518 3.320000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012195 3.644252 3.280000
+
+Loss Burst -> Gap 0.190476 56.919742 0.420000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=200.665807, blenHat=0.133333, ieGHat=4.165063, glenHat=7.500000, mieHat=2.638067
+#pkts=6100.000000, #received=6035.000000, #losses=65.000000, lratio=0.010656, RScoreHat=87.061933
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.015625 4.669198 1.280000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.034483 10.304436 0.580000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.006329 1.891321 3.160000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.454545 135.831202 0.220000
+ieBHat=219.593777, blenHat=0.106667, ieGHat=4.216239, glenHat=2.010000, mieHat=0.477697
+#pkts=418.000000, #received=406.000000, #losses=12.000000, lratio=0.028708, RScoreHat=89.222303
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=219.593777, blenHat=0.106667, ieGHat=0.000000, glenHat=2.460000, mieHat=0.000000
+#pkts=123.000000, #received=123.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.015385 4.597364 1.300000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.003899 1.165024 10.260000
+
+Loss Burst -> Gap 0.333333 99.609548 0.240000
+Loss Gap -> Burst, 0.001524 0.455531 13.120000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.030303 9.055413 0.660000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=143.188726, blenHat=0.115000, ieGHat=3.181289, glenHat=6.956000, mieHat=2.515201
+#pkts=1762.000000, #received=1746.000000, #losses=16.000000, lratio=0.009081, RScoreHat=87.184799
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.021739 6.496275 0.920000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.002885 0.862006 20.800000
+
+Loss Burst -> Gap 0.571429 170.759226 0.280000
+Loss Gap -> Burst, 0.003067 0.916652 6.520000
+
+Loss Burst -> Gap 0.230769 68.960457 0.260000
+Loss Gap -> Burst, 0.005698 1.702727 7.020000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012658 3.782641 1.580000
+
+Loss Burst -> Gap 0.700000 209.180051 0.200000
+Loss Gap -> Burst, 0.003315 0.990592 18.100000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001000 0.298829 20.000000
+
+Loss Burst -> Gap 0.555556 166.015914 0.180000
+Loss Gap -> Burst, 0.017544 5.242608 1.140000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.437500 130.737532 0.320000
+ieBHat=186.590599, blenHat=0.170000, ieGHat=2.254703, glenHat=8.642222, mieHat=0.000000
+#pkts=3957.000000, #received=3910.000000, #losses=47.000000, lratio=0.011878, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.125000 37.353581 0.160000
+Loss Gap -> Burst, 0.013333 3.984382 3.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005618 1.678813 3.560000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.010000 2.988286 2.000000
+
+Loss Burst -> Gap 0.666667 199.219097 0.120000
+Loss Gap -> Burst, 0.001248 0.373069 16.020000
+
+Loss Burst -> Gap 0.200000 59.765729 0.400000
+Loss Gap -> Burst, 0.003831 1.144937 5.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.100000
+Loss Gap -> Burst, 0.006515 1.946766 6.140000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.005525 1.650987 3.620000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+ieBHat=192.682220, blenHat=0.125000, ieGHat=1.529693, glenHat=4.846667, mieHat=0.000000
+#pkts=2231.000000, #received=2200.000000, #losses=31.000000, lratio=0.013895, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.015625 4.669198 2.560000
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+Loss Gap -> Burst, 0.003300 0.986233 6.060000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.001580 0.472083 12.660000
+
+Loss Burst -> Gap 0.111111 33.203183 0.540000
+Loss Gap -> Burst, 0.004237 1.266223 9.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.050000 14.941432 0.400000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.666667 199.219097 0.060000
+ieBHat=205.859733, blenHat=0.144000, ieGHat=3.722528, glenHat=5.530000, mieHat=0.581426
+#pkts=1695.000000, #received=1678.000000, #losses=17.000000, lratio=0.010029, RScoreHat=89.118574
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003571 1.067245 5.600000
+
+Loss Burst -> Gap 0.375000 112.060742 0.160000
+Loss Gap -> Burst, 0.009934 2.968496 6.040000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.008065 2.409908 2.480000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.500000 149.414322 0.400000
+ieBHat=186.767903, blenHat=0.193333, ieGHat=1.611413, glenHat=6.610000, mieHat=0.000000
+#pkts=1351.000000, #received=1332.000000, #losses=19.000000, lratio=0.014064, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.010363 3.096670 3.860000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.004854 1.450624 12.360000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006757 2.019112 2.960000
+
+Loss Burst -> Gap 0.214286 64.034710 0.280000
+Loss Gap -> Burst, 0.008264 2.469658 2.420000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=240.130161, blenHat=0.090000, ieGHat=1.807213, glenHat=5.412000, mieHat=0.000000
+#pkts=1371.000000, #received=1357.000000, #losses=14.000000, lratio=0.010212, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=240.130161, blenHat=0.090000, ieGHat=0.816472, glenHat=7.320000, mieHat=0.000000
+#pkts=366.000000, #received=365.000000, #losses=1.000000, lratio=0.002732, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=240.130161, blenHat=0.090000, ieGHat=0.000000, glenHat=4.840000, mieHat=0.000000
+#pkts=242.000000, #received=242.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.017857 5.336226 1.120000
+
+Loss Burst -> Gap 0.222222 66.406366 0.360000
+Loss Gap -> Burst, 0.004577 1.367637 8.740000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.001942 0.580250 10.300000
+
+Loss Burst -> Gap 0.736842 220.189528 0.380000
+Loss Gap -> Burst, 0.034483 10.304436 0.580000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.047619 14.229935 0.420000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=146.967772, blenHat=0.184000, ieGHat=5.608631, glenHat=4.613333, mieHat=4.532307
+#pkts=1430.000000, #received=1401.000000, #losses=29.000000, lratio=0.020280, RScoreHat=85.167693
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.009259 2.766932 2.160000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.004132 1.234829 9.680000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.044444 13.281273 0.900000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+ieBHat=142.773686, blenHat=0.066667, ieGHat=4.320759, glenHat=4.050000, mieHat=7.026033
+#pkts=820.000000, #received=810.000000, #losses=10.000000, lratio=0.012195, RScoreHat=82.673967
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.009615 2.873352 2.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+ieBHat=74.707161, blenHat=0.160000, ieGHat=1.436676, glenHat=4.980000, mieHat=0.000000
+#pkts=506.000000, #received=503.000000, #losses=3.000000, lratio=0.005929, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.020408 6.098544 0.980000
+
+Loss Burst -> Gap 0.800000 239.062916 0.100000
+Loss Gap -> Burst, 0.004785 1.429802 4.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.007335 2.191897 8.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006873 2.053805 5.820000
+
+Loss Burst -> Gap 0.666667 199.219097 0.120000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=258.984826, blenHat=0.075000, ieGHat=2.674412, glenHat=4.580000, mieHat=0.278735
+#pkts=1160.000000, #received=1140.000000, #losses=20.000000, lratio=0.017241, RScoreHat=89.421265
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.333333 99.609548 0.240000
+Loss Gap -> Burst, 0.005976 1.785829 10.040000
+
+Loss Burst -> Gap 0.857143 256.138839 0.140000
+Loss Gap -> Burst, 0.021739 6.496275 1.840000
+
+Loss Burst -> Gap 1.000000 298.828645 0.080000
+Loss Gap -> Burst, 0.003623 1.082712 5.520000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.003021 0.902806 6.620000
+
+Loss Burst -> Gap 0.166667 49.804774 0.120000
+Loss Gap -> Burst, 0.002847 0.850758 28.100000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.000972 0.290407 20.580000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.010929 3.265887 3.660000
+
+Loss Burst -> Gap 0.705882 210.937867 0.340000
+Loss Gap -> Burst, 0.003846 1.149341 20.800000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.007812 2.334599 2.560000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.006250 1.867679 3.200000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.055556 16.601591 0.360000
+
+Loss Burst -> Gap 0.076923 22.986819 0.260000
+Loss Gap -> Burst, 0.003119 0.931898 19.240000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009524 2.845987 2.100000
+
+Loss Burst -> Gap 0.833333 249.023871 0.120000
+Loss Gap -> Burst, 0.012195 3.644252 1.640000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.007353 2.197269 2.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.010638 3.179028 1.880000
+
+Loss Burst -> Gap 0.444444 132.812731 0.360000
+Loss Gap -> Burst, 0.006424 1.919670 9.340000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.015385 4.597364 1.300000
+
+Loss Burst -> Gap 0.833333 249.023871 0.120000
+Loss Gap -> Burst, 0.002481 0.741510 16.120000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005848 1.747536 3.420000
+
+Loss Burst -> Gap 0.500000 149.414322 0.280000
+Loss Gap -> Burst, 0.002203 0.658213 9.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=212.734285, blenHat=0.154545, ieGHat=2.685937, glenHat=7.732727, mieHat=0.000000
+#pkts=8676.000000, #received=8559.000000, #losses=117.000000, lratio=0.013485, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=212.734285, blenHat=0.154545, ieGHat=0.000000, glenHat=0.300000, mieHat=0.000000
+#pkts=15.000000, #received=15.000000, #losses=0.000000, lratio=0.000000, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.005831 1.742441 6.860000
+
+Loss Burst -> Gap 1.000000 298.828645 0.100000
+Loss Gap -> Burst, 0.020408 6.098544 0.980000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=298.828645, blenHat=0.060000, ieGHat=2.956552, glenHat=6.486667, mieHat=1.810384
+#pkts=979.000000, #received=968.000000, #losses=11.000000, lratio=0.011236, RScoreHat=87.889616
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=298.828645, blenHat=0.060000, ieGHat=1.009556, glenHat=5.920000, mieHat=0.000000
+#pkts=296.000000, #received=295.000000, #losses=1.000000, lratio=0.003378, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.004237 1.266223 4.720000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.005391 1.610936 7.420000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.007519 2.246832 5.320000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.004739 1.416250 8.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003484 1.041215 5.740000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.004831 1.443617 4.140000
+
+Loss Burst -> Gap 0.500000 149.414322 0.160000
+Loss Gap -> Burst, 0.001422 0.425076 14.060000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=209.180051, blenHat=0.062857, ieGHat=1.181269, glenHat=7.080000, mieHat=0.000000
+#pkts=2854.000000, #received=2832.000000, #losses=22.000000, lratio=0.007708, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003759 1.123416 5.320000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.030303 9.055413 0.660000
+
+Loss Burst -> Gap 0.500000 149.414322 0.120000
+Loss Gap -> Burst, 0.004950 1.479350 4.040000
+
+Loss Burst -> Gap 0.625000 186.767903 0.160000
+Loss Gap -> Burst, 0.003891 1.162757 5.140000
+
+Loss Burst -> Gap 0.280000 83.672021 0.500000
+Loss Gap -> Burst, 0.003356 1.002781 5.960000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002041 0.609854 19.600000
+
+Loss Burst -> Gap 0.555556 166.015914 0.180000
+Loss Gap -> Burst, 0.003247 0.970223 6.160000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.001139 0.340352 17.560000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.013889 4.150398 1.440000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002967 0.886732 20.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.021739 6.496275 0.920000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.021739 6.496275 0.920000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.011730 3.505321 6.820000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.002825 0.844149 14.160000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.058824 17.578156 0.340000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006211 1.856079 3.220000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.006098 1.822126 6.560000
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+Loss Gap -> Burst, 0.009259 2.766932 2.160000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.007273 2.173299 5.500000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.615385 183.894551 0.260000
+ieBHat=200.151340, blenHat=0.104211, ieGHat=3.215994, glenHat=6.743000, mieHat=1.827902
+#pkts=6842.000000, #received=6766.000000, #losses=76.000000, lratio=0.011108, RScoreHat=87.872098
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.333333 99.609548 0.120000
+Loss Gap -> Burst, 0.006780 2.025957 5.900000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.027778 8.300796 2.160000
+
+Loss Burst -> Gap 0.250000 74.707161 0.160000
+Loss Gap -> Burst, 0.006231 1.861861 6.420000
+
+Loss Burst -> Gap 0.555556 166.015914 0.180000
+Loss Gap -> Burst, 0.011628 3.474752 1.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.005025 1.501651 3.980000
+
+Loss Burst -> Gap 0.571429 170.759226 0.140000
+Loss Gap -> Burst, 0.004396 1.313533 9.100000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.000605 0.180780 33.060000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.003077 0.919473 6.500000
+
+Loss Burst -> Gap 1.000000 298.828645 0.160000
+Loss Gap -> Burst, 0.045455 13.583120 0.440000
+
+Loss Burst -> Gap 0.333333 99.609548 0.120000
+Loss Gap -> Burst, 0.032258 9.639634 0.620000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.005236 1.564548 7.640000
+
+Loss Burst -> Gap 0.666667 199.219097 0.120000
+Loss Gap -> Burst, 0.005313 1.587825 18.820000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.014851 4.438049 4.040000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.018868 5.638276 1.060000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.166667 49.804774 0.120000
+ieBHat=185.479303, blenHat=0.098667, ieGHat=3.501891, glenHat=6.475000, mieHat=2.680511
+#pkts=5254.000000, #received=5188.000000, #losses=66.000000, lratio=0.012562, RScoreHat=87.019489
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.008772 2.621304 2.280000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.017857 5.336226 2.240000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.004587 1.370774 8.720000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.003866 1.155265 15.520000
+
+Loss Burst -> Gap 0.500000 149.414322 0.160000
+Loss Gap -> Burst, 0.001238 0.369837 32.320000
+
+Loss Burst -> Gap 0.692308 206.881370 0.260000
+Loss Gap -> Burst, 0.027778 8.300796 0.720000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.001353 0.404369 14.780000
+
+Loss Burst -> Gap 1.000000 298.828645 0.060000
+Loss Gap -> Burst, 0.004785 1.429802 4.180000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.014286 4.268981 1.400000
+
+Loss Burst -> Gap 1.000000 298.828645 0.120000
+Loss Gap -> Burst, 0.013986 4.179422 2.860000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009302 2.779801 4.300000
+
+Loss Burst -> Gap 0.857143 256.138839 0.140000
+Loss Gap -> Burst, 0.004340 1.296839 32.260000
+
+Loss Burst -> Gap 0.900000 268.945780 0.200000
+Loss Gap -> Burst, 0.001520 0.454147 13.160000
+
+Loss Burst -> Gap 0.090909 27.166240 0.220000
+Loss Gap -> Burst, 0.001645 0.491494 12.160000
+
+Loss Burst -> Gap 0.333333 99.609548 0.360000
+Loss Gap -> Burst, 0.013158 3.931956 1.520000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=233.558352, blenHat=0.122667, ieGHat=2.559401, glenHat=9.894667, mieHat=0.776658
+#pkts=7513.000000, #received=7428.000000, #losses=85.000000, lratio=0.011314, RScoreHat=88.923342
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.010204 3.049272 1.960000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.009709 2.901249 2.060000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.015385 4.597364 1.300000
+
+Loss Burst -> Gap 0.200000 59.765729 0.100000
+Loss Gap -> Burst, 0.008163 2.439418 4.900000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=183.032545, blenHat=0.070000, ieGHat=2.685871, glenHat=4.748000, mieHat=2.162134
+#pkts=1201.000000, #received=1188.000000, #losses=13.000000, lratio=0.010824, RScoreHat=87.537866
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.571429 170.759226 0.140000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=170.759226, blenHat=0.140000, ieGHat=0.622560, glenHat=2.400000, mieHat=0.000000
+#pkts=247.000000, #received=242.000000, #losses=5.000000, lratio=0.020243, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.020408 6.098544 0.980000
+
+Loss Burst -> Gap 0.411765 123.047089 0.340000
+Loss Gap -> Burst, 0.012821 3.831136 1.560000
+
+Loss Burst -> Gap 0.733333 219.141006 0.300000
+Loss Gap -> Burst, 0.003472 1.037599 5.760000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=213.672247, blenHat=0.220000, ieGHat=3.141323, glenHat=3.945000, mieHat=0.000000
+#pkts=822.000000, #received=798.000000, #losses=24.000000, lratio=0.029197, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.000000 0.000000 0.000000
+
+Loss Burst -> Gap 0.142857 42.689806 0.140000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=42.689806, blenHat=0.140000, ieGHat=0.367111, glenHat=4.070000, mieHat=0.000000
+#pkts=414.000000, #received=412.000000, #losses=2.000000, lratio=0.004831, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003279 0.979766 6.100000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.007194 2.149846 2.780000
+
+Loss Burst -> Gap 0.666667 199.219097 0.180000
+Loss Gap -> Burst, 0.003559 1.063447 5.620000
+
+Loss Burst -> Gap 0.500000 149.414322 0.160000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=166.015914, blenHat=0.126667, ieGHat=1.278843, glenHat=5.245000, mieHat=0.000000
+#pkts=1068.000000, #received=1053.000000, #losses=15.000000, lratio=0.014045, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.018519 5.533864 1.080000
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+Loss Gap -> Burst, 0.009434 2.819138 2.120000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.003745 1.119208 10.680000
+
+Loss Burst -> Gap 0.125000 37.353581 0.160000
+Loss Gap -> Burst, 0.045455 13.583120 0.440000
+
+Loss Burst -> Gap 0.315789 94.366941 0.380000
+Loss Gap -> Burst, 0.002857 0.853796 21.000000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.000808 0.241380 24.760000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.003401 1.016424 29.400000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.012422 3.712157 3.220000
+
+Loss Burst -> Gap 0.200000 59.765729 0.300000
+Loss Gap -> Burst, 0.023256 6.949503 0.860000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.047619 14.229935 0.420000
+
+Loss Burst -> Gap 1.000000 298.828645 0.040000
+Loss Gap -> Burst, 0.005666 1.693080 7.060000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.001757 0.525182 11.380000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Loss Gap -> Burst, 0.031250 9.338395 0.640000
+
+Loss Burst -> Gap 0.500000 149.414322 0.080000
+Loss Gap -> Burst, 0.006881 2.056160 8.720000
+
+Loss Burst -> Gap 0.230769 68.960457 0.260000
+Loss Gap -> Burst, 0.006645 1.985572 12.040000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.001342 0.401112 14.900000
+
+Loss Burst -> Gap 0.700000 209.180051 0.200000
+Loss Gap -> Burst, 0.006061 1.811083 3.300000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.583333 174.316710 0.240000
+ieBHat=184.363657, blenHat=0.121176, ieGHat=3.770506, glenHat=8.528889, mieHat=2.796329
+#pkts=7779.000000, #received=7704.000000, #losses=75.000000, lratio=0.009641, RScoreHat=86.903671
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.037037 11.067728 0.540000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.003891 1.162757 5.140000
+
+Loss Burst -> Gap 0.333333 99.609548 0.180000
+Loss Gap -> Burst, 0.004762 1.422994 4.200000
+
+Loss Burst -> Gap 0.421053 125.822587 0.380000
+Loss Gap -> Burst, 0.005988 1.789393 6.680000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=205.772356, blenHat=0.150000, ieGHat=3.088574, glenHat=4.548000, mieHat=0.000000
+#pkts=1167.000000, #received=1149.000000, #losses=18.000000, lratio=0.015424, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.002732 0.816472 7.320000
+
+Loss Burst -> Gap 0.333333 99.609548 0.120000
+Loss Gap -> Burst, 0.005429 1.622305 18.420000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 0.750000 224.121484 0.080000
+ieBHat=161.865516, blenHat=0.100000, ieGHat=0.812926, glenHat=12.853333, mieHat=0.016688
+#pkts=1938.000000, #received=1927.000000, #losses=11.000000, lratio=0.005676, RScoreHat=89.683312
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=161.865516, blenHat=0.100000, ieGHat=0.265744, glenHat=44.980000, mieHat=0.222137
+#pkts=2249.000000, #received=2247.000000, #losses=2.000000, lratio=0.000889, RScoreHat=89.477863
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.004211 1.258226 9.500000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.002566 0.766664 70.160000
+
+Loss Burst -> Gap 0.428571 128.069419 0.140000
+Loss Gap -> Burst, 0.014085 4.208854 1.420000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.013889 4.150398 2.880000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.003130 0.935301 12.780000
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+Loss Gap -> Burst, 0.020000 5.976573 1.000000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.006494 1.940446 3.080000
+
+Loss Burst -> Gap 0.375000 112.060742 0.160000
+Loss Gap -> Burst, 0.005051 1.509236 7.920000
+
+Loss Burst -> Gap 0.740741 221.354552 0.540000
+Loss Gap -> Burst, 0.001239 0.370296 16.140000
+
+Loss Burst -> Gap 0.250000 74.707161 0.240000
+Loss Gap -> Burst, 0.002092 0.625165 9.560000
+
+Loss Burst -> Gap 0.333333 99.609548 0.240000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=168.170168, blenHat=0.154000, ieGHat=2.044898, glenHat=13.665455, mieHat=1.044205
+#pkts=7593.000000, #received=7531.000000, #losses=62.000000, lratio=0.008165, RScoreHat=88.655795
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.003425 1.023386 5.840000
+
+Loss Burst -> Gap 0.250000 74.707161 0.080000
+Loss Gap -> Burst, 0.006814 2.036311 11.740000
+
+Loss Burst -> Gap 0.600000 179.297187 0.100000
+Loss Gap -> Burst, 0.003155 0.942677 6.340000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.001698 0.507349 11.780000
+
+Loss Burst -> Gap 0.400000 119.531458 0.100000
+Loss Gap -> Burst, 0.003247 0.970223 6.160000
+Account for the period between flow end and the last loss event and calculate the final RScore
+
+Loss Burst -> Gap 1.000000 298.828645 0.020000
+ieBHat=158.379182, blenHat=0.080000, ieGHat=0.913324, glenHat=7.066667, mieHat=0.000000
+#pkts=2140.000000, #received=2123.000000, #losses=17.000000, lratio=0.007944, RScoreHat=89.700000
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Loss Gap -> Burst, 0.005556 1.660159 3.600000
+
+Loss Burst -> Gap 0.416667 124.511935 0.240000
+Loss Gap -> Burst, 0.012500 3.735358 1.600000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.008197 2.449415 4.880000
+
+Loss Burst -> Gap 0.333333 99.609548 0.060000
+Loss Gap -> Burst, 0.000440 0.131353 45.500000
+
+Loss Burst -> Gap 0.500000 149.414322 0.040000
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=118.286339, blenHat=0.100000, ieGHat=1.770011, glenHat=12.484000, mieHat=1.398260
+#pkts=3141.000000, #received=3127.000000, #losses=14.000000, lratio=0.004457, RScoreHat=88.301740
+------------------------------------------
+
+
+++++++++++++++++++++ New flow detected ++++++++++++++++++++
+Account for the period between flow end and the last loss event and calculate the final RScore
+ieBHat=118.286339, blenHat=0.100000, ieGHat=1.770011, glenHat=12.484000, mieHat=1.398260
+#pkts=0.000000, #received=0.000000, #losses=0.000000, lratio=nan, RScoreHat=88.301740
+------------------------------------------
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.093856
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=88.627055
+RScoreHat=88.607137
+RScoreHat=89.700000
+RScoreHat=88.339336
+RScoreHat=89.176776
+RScoreHat=89.472635
+RScoreHat=89.700000
+RScoreHat=89.094458
+RScoreHat=88.865757
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=85.054894
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=86.479545
+RScoreHat=89.177655
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=88.914325
+RScoreHat=89.133639
+RScoreHat=89.278429
+RScoreHat=89.304805
+RScoreHat=89.700000
+RScoreHat=88.893014
+RScoreHat=85.789450
+RScoreHat=89.700000
+RScoreHat=88.552594
+RScoreHat=89.579979
+RScoreHat=89.700000
+RScoreHat=88.881023
+RScoreHat=87.414892
+RScoreHat=86.677855
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=87.917715
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=86.622560
+RScoreHat=89.700000
+RScoreHat=89.263368
+RScoreHat=84.067516
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=64.664997
+RScoreHat=89.700000
+RScoreHat=87.325586
+RScoreHat=88.192730
+RScoreHat=89.700000
+RScoreHat=84.397667
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=87.061933
+RScoreHat=89.222303
+RScoreHat=89.700000
+RScoreHat=87.184799
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.118574
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=85.167693
+RScoreHat=82.673967
+RScoreHat=89.700000
+RScoreHat=89.421265
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=87.889616
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=87.872098
+RScoreHat=87.019489
+RScoreHat=88.923342
+RScoreHat=87.537866
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=89.700000
+RScoreHat=86.903671
+RScoreHat=89.700000
+RScoreHat=89.683312
+RScoreHat=89.477863
+RScoreHat=88.655795
+RScoreHat=89.700000
+RScoreHat=88.301740
+RScoreHat=88.301740

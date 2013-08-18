@@ -1,0 +1,8 @@
+
+
+
+function [bw] = bwstats( data )
+
+sz=size(data)
+
+for i=sz(

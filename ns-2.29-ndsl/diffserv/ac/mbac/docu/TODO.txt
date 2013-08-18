@@ -1,0 +1,20 @@
+#
+# TODO FILE
+#
+# bothom:mbac
+
++++ Current state
+Intervalschaetzer konfigurierbar. Achtung, SKDE-Konfigurationsschnittstelle (TCL) hat sich geändert!
+acMeter::writeTrace() erweitert. Ankunftsprozess kann mitgezeichnet werden
+
+
++++ General Estimation
+
++++ Framework for SKDE algorithm is ready, however
+
++++ General Issues
+- UPDATE/DELETE/TODO tags durchsehen
+- Change flow identification to a real hash value and not the fid_ field in the IP header.
+- Check whether source tear down really works
+- Black/Whitelisting as a measn of fairness - 0, flow admitted, -1 flow rejected first time, etc ... more is yet to be defined
+

@@ -1,0 +1,25 @@
+// HowToAddNewAlgorithms.txt
+// Thomas Michael Bohnert, tmb@nginet.de
+// August 2007, Beijing
+
+This file briefly outlines how to add a new algorithm to the framework. Simply follow the steps one after another. Additionally, there are some code templates distributed over all source files for an algorithm called EXM (Example), which your convenience.
+
++ Define a name and an abbreviation/acronym for your algorithm, e.g. Exmaple/EXM
+
++ Create the configuration data structues for your algorithm in adDefinitions.h. For example, for the algorithm called FHB the struct is called "struct acParameterFHB { (...) }" Inside this structure are the configuration paramters for the algorithm's policy, estimator and meter module (class).
+
++ Add a pointer to the estimator object of your new module inside "adcParameterSet.estimatorParameter{(..)}"
+
++ Announce the names of your algorithm in "admissionControlType{(...) EXM}" and "estimatorType {(...) EXMEST};"
+
++ Add your "case" in order to create your specific estimator object in "acPolicy::acPolicy()"
+
++ Add a class declaration and definition in acEstimator.h and acEstimator.cc respectively. Mind the pure virtual functions as your estimator is a child from class acEstimator.
+
++ Add a statistic/result struct in acEstimator.h, e.g. struct oqaStats{(...)}
+
++ Add a class declaration and definition in acMeter.h and acMeter.cc respectively. Mind the pure virtual functions as your meter is a child from class acEstimator
+
+
+
+		

@@ -1,0 +1,42 @@
+# Online Estimation of common Statistics for MBAC
+#
+#
+# Thomas Michael Bohnert, bothom
+#
+# bothom:mbac
+
+1;
+
+function [myHat, sigHat]=onlineEst(s, ssq, ssize)
+	myHat=s/ssize;
+	sigHat=sqrt(ssq/(ssize)-myHat^2);
+endfunction
+
+n=5;
+data(1:5)=-1;
+data(6:20)=[1:15]
+css=0;
+s=0;
+ssq=0;
+myHat_o=0;
+sigHat_o=0;
+	
+for i=1:numel(data)
+	#simulate buffer
+	prev=data(i)
+	new=i
+	if(prev<0)
+		css++;
+		s+=new;
+		ssq+=new^2;
+	else
+		s+=(new-prev);
+		ssq+=(new^2-prev^2);
+	endif
+	[myHat_o, sigHat_o]=onlineEst(s, ssq, css)
+	printf("\n");
+endfor
+
+exit;
+
+#printf("Range: %i-%i\n", r, i);

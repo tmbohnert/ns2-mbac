@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <DocsAndViews NumberOfDocuments="3" >
+  <Doc0 NumberOfViews="1" URL="file:///opt/ns-2/ns-allinone-2.29/ns-2.29/diffserv/ac/workspace/emodel/main.cpp" >
+   <View0 line="42" Type="Source" />
+  </Doc0>
+  <Doc1 NumberOfViews="1" URL="file:///opt/ns-2/ns-allinone-2.29/ns-2.29/diffserv/ac/workspace/emodel/emodel.cpp" >
+   <View0 Type="Source" />
+  </Doc1>
+  <Doc2 NumberOfViews="1" URL="file:///opt/ns-2/ns-allinone-2.29/ns-2.29/diffserv/ac/workspace/emodel/emodel.h" >
+   <View0 line="58" Type="Source" />
+  </Doc2>
+ </DocsAndViews>
+ <pluginList>
+  <kdevdebugger>
+   <breakpointList>
+    <breakpoint0 location="/opt/ns-2/ns-allinone-2.29/ns-2.29/diffserv/ac/mbac/acEstimator.cc:534" type="1" tracingFormatString="" traceFormatStringEnabled="0" condition="" tracingEnabled="0" enabled="1" >
+     <tracedExpressions/>
+    </breakpoint0>
+   </breakpointList>
+  </kdevdebugger>
+  <kdevbookmarks>
+   <bookmarks/>
+  </kdevbookmarks>
+  <kdevvalgrind>
+   <executable path="" params="" />
+   <valgrind path="" params="" />
+   <calltree path="" params="" />
+   <kcachegrind path="" />
+  </kdevvalgrind>
+ </pluginList>
+</KDevPrjSession>

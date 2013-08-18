@@ -1,0 +1,96 @@
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 2500
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 2500 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 10000000.0 bps
+			bufferSize = 150000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000100
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Disabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) = 43590 68430 93270 118110 142950 
+		Interval Estimate = Disabled
+		Tracing = Disabled
+	Meter: 	       
+		Window length (mp.wlen) = 50.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 2500
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 2500 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 10000000.0 bps
+			bufferSize = 150000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000100
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Disabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) = 43590 68430 93270 118110 142950 
+		Interval Estimate = Disabled
+		Tracing = Disabled
+	Meter: 	       
+		Window length (mp.wlen) = 50.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+

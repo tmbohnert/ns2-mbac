@@ -1,0 +1,17 @@
+#
+# GENERAL IMPLEMENTATION NOTES
+# bothom:mbac
+
++ File marks //bothom
+	Files related to the MBAC implementation are tagged with "bothom:mbac". This allows a fast backup using tar -czf mbac-bkp.tar.gz $(grep -Rl bothom:mbac *)
+	
++ Naming of variables //added by bothom
+	Standard naming is in this format "thisIsMyVariableName_index"
+	
++ Trace file format
+	The first (3 capital letter) tag in the trace file identifies the class, i.e. POL, EST, MET etc
+	
+	
+	
+	
+	

@@ -1,0 +1,203 @@
+// Bothom
+// Per DSCP/CodePoint/Class Emodel
+struct eModelParam{
+	bool enabled[MAX_CP];
+	bool state[MAX_CP];	//0 = gap, 1 = burst
+	int loss[MAX_CP];
+	int pktRef[MAX_CP];
+	double tRef[MAX_CP];
+	double tple[MAX_CP]; 	//time of previous loss event
+	double delta[MAX_CP]; 
+	double lgLen[MAX_CP]; //loss gap length in sec.
+	double lbLen[MAX_CP];	//loss burst length in sec.
+	int maxDrops[MAX_CP]; //maximum number of drops between two score updates.
+	double wLen[MAX_CP];	//observation window of Ie
+	struct ieRecord{
+		double ie;	//Ie
+		double t;		//time
+		int state; //previous state of the two-state loss model
+	} *ieRec[MAX_CP];
+	int ieRecHead[MAX_CP];
+	int ieRecTotLen[MAX_CP];
+	double mieHat[MAX_CP]; //current mean Ie
+	EModelTimer *emt[MAX_CP]; //timer for periodic mIe updates. Asures that a long loss gap/burst does not delay RScore updates
+
+	void inline initIeRec(int codePt){
+			ieRecTotLen[codePt]=(int)(wLen[codePt]/delta[codePt]);
+			ieRec[codePt]=new ieRecord[ieRecTotLen[codePt]];
+			ieRecHead[codePt]=0;
+			for(int i=0; i<ieRecTotLen[codePt]-1; i++){
+				ieRec[codePt][i].ie=0.0;
+				ieRec[codePt][i].t=0.0;
+			}
+	};
+};
+// Bothom
+
+	//bothom
+	eModelParam eModel;
+	int eModelEventHandler(int event, int codePt);
+	double lossImpairFactor(double lossRatio, int model);
+	double updateMeanIe(int codePt, double ie, double t, int state);
+	//bothom
+
+			//bothom
+	double getMie(int codePt);
+	void periodicMIeUpdate(int codePt);
+	//bothom
+
+
+		
+int dsREDQueue::eModelEventHandler(int event, int codePt){
+	double now=Scheduler::instance().clock();
+	
+	switch(event){
+		case PKT_DROPPED :
+		{
+			double pktSent=0.0, lossRatio=0.0;
+			double ie=0.0, mieHat=0.0;
+			double delta=now-eModel.tple[codePt];
+			eModel.tple[codePt]=now;
+
+			if(eModel.state[codePt]){ //loss burst state
+				if(delta>eModel.delta[codePt]){ // state change, calculate the score and change state
+					pktSent=stats.pkts_CP[codePt]-eModel.pktRef[codePt];
+					lossRatio=eModel.loss[codePt]/pktSent;
+					ie=lossImpairFactor(lossRatio, 0);
+					mieHat=updateMeanIe(codePt, ie, now-eModel.tRef[codePt], eModel.state[codePt]);
+					printf("\n%lf: Class %i Loss Burst -> Gap, %lf %lf %lf %lf\n", now, codePt, lossRatio, ie, now-eModel.tRef[codePt], mieHat);
+					eModel.state[codePt]=0;
+					eModel.loss[codePt]=1; // reset loss counter
+					eModel.pktRef[codePt]=stats.pkts_CP[codePt]; //absolute number of pkt sent until now
+					eModel.tRef[codePt]=now; //time reference
+				}else{
+					eModel.loss[codePt]++; // update loss counter
+				}		
+			}else{ // loss gap state
+				if(delta<eModel.delta[codePt]){ // state change, calculate the score and change state
+					pktSent=stats.pkts_CP[codePt]-eModel.pktRef[codePt];
+					lossRatio=eModel.loss[codePt]/pktSent;
+					ie=lossImpairFactor(lossRatio, 0);
+					mieHat=updateMeanIe(codePt, ie, now-eModel.tRef[codePt], eModel.state[codePt]);
+					printf("\n%lf: Class %i Loss Gap -> Burst, %lf %lf %lf %lf\n", now, codePt, lossRatio, ie, now-eModel.tRef[codePt], mieHat);
+					eModel.state[codePt]=1;
+					eModel.loss[codePt]=1; // reset loss counter
+					eModel.pktRef[codePt]=stats.pkts_CP[codePt]; //absolute number of pkts sent until now
+					eModel.tRef[codePt]=now; //time reference
+				}else{
+					eModel.loss[codePt]++; // update loss counter
+				}		
+			}
+			break;
+		}
+		default: printf("Couldn't find eModelEvent\n");
+	}
+	return(1);
+}
+
+double dsREDQueue::updateMeanIe(int codePt, double ie, double t, int state){
+	double ieHat=0.0;
+	double tt=0.0;
+	double check=0;
+
+	//double now=Scheduler::instance().clock();
+
+	// add the latest estimate and update the head pointer (ring buffer)
+	eModel.ieRec[codePt][eModel.ieRecHead[codePt]].ie=ie;
+	eModel.ieRec[codePt][eModel.ieRecHead[codePt]].t=t;
+	eModel.ieRec[codePt][eModel.ieRecHead[codePt]].state=state;
+	eModel.ieRecHead[codePt]=(++eModel.ieRecHead[codePt])%(eModel.ieRecTotLen[codePt]);
+
+	//compute the mean over the last T (wLen) sec
+	for(int idx=eModel.ieRecHead[codePt]-1; tt<eModel.wLen[codePt] && check<=1; idx--){
+		if(idx<0){
+			idx=eModel.ieRecTotLen[codePt]-1; //negative idx, jump to the end of the vector
+			check++; //maximum two loops
+		}
+		tt+=eModel.ieRec[codePt][idx].t;
+		ieHat+=(eModel.ieRec[codePt][idx].t*eModel.ieRec[codePt][idx].ie);
+		//if(now>200)printf("STATE: %i, T: %lf, IE: %lf TT: %lf\n", eModel.ieRec[codePt][idx].state, eModel.ieRec[codePt][idx].t, eModel.ieRec[codePt][idx].ie, tt);
+	}
+	eModel.mieHat[codePt]=ieHat/tt;
+	//printf("STATE: %i, TT: %lf, IEHAT: %lf, MIEHAT: %lf\n", state, tt, ieHat, eModel.mieHat[codePt]);
+	return(eModel.mieHat[codePt]);
+}
+
+double dsREDQueue::lossImpairFactor(double lossRatio, int model){
+	double x=lossRatio*100;
+	switch(model){
+		case 0: //polynominal fit, 4th order.
+		{
+			if(lossRatio<=8) //non-linear part
+				return(-0.00094355*x+0.19543*x-1.4758*x+5.1598*x-0.8902*x);
+			else
+				return(1.286*x-1.786);
+			break;
+		}
+		default: printf("Could'nt find model for EModel Ie fiting\n");
+	}
+	return(-1);
+}
+
+void dsREDQueue::periodicMIeUpdate(int codePt){
+	double now=Scheduler::instance().clock();
+
+	if((now-eModel.tRef[codePt])>5){ //TODO: time configurable
+		double pktSent=0.0, lossRatio=0.0;
+		double ie=0.0, mieHat=0.0;
+		eModel.tple[codePt]=now;
+
+		pktSent=stats.pkts_CP[codePt]-eModel.pktRef[codePt];
+		lossRatio=eModel.loss[codePt]/pktSent;
+		ie=lossImpairFactor(lossRatio, 0);
+		mieHat=updateMeanIe(codePt, ie, now-eModel.tRef[codePt], eModel.state[codePt]);
+		printf("\n%lf: Class %i MIe timer expired, %lf %lf %lf %lf\n", now, codePt, lossRatio, ie, now-eModel.tRef[codePt], mieHat);
+		eModel.loss[codePt]=1; // reset loss counter
+		eModel.pktRef[codePt]=stats.pkts_CP[codePt]; //absolute number of pkts sent until now
+		eModel.tRef[codePt]=now; //time reference
+	}
+}
+
+double dsREDQueue::getMie(int codePt){
+	return(eModel.mieHat[codePt]);
+}
+
+
+		//Timer for metering/measurement
+class EModelTimer : public TimerHandler{
+protected:
+	class dsREDQueue *queue;
+	int codePt;
+	int t; //timeout
+public:
+	EModelTimer(dsREDQueue *q, int cp, int timeOut) : TimerHandler(), queue(q), codePt(cp), t(timeOut){}
+	void expire(Event *);
+};
+
+
+  //bothom
+	if (strcmp(argv[1], "enableEModel") == 0) {
+		printf("INSIDE enableEMODEL\n");
+		int codePt=atoi(argv[2]);
+		eModel.enabled[codePt]=ON;
+		eModel.state[codePt]=0;
+		eModel.loss[codePt]=0;
+		eModel.pktRef[codePt]=0;
+		eModel.delta[codePt]=0.1; //TODO: Muss adaptive von der aktuellen Datenrate berechnet werden
+		eModel.wLen[codePt]=210;
+		eModel.initIeRec(codePt);
+		eModel.emt[codePt]=new EModelTimer(this, codePt, 5); //TODO: timeout configurable
+		eModel.emt[codePt]->sched(Scheduler::instance().clock()+5);
+		return(TCL_OK);
+	};
+	//bothom
+
+		void EModelTimer::expire(Event *) {
+	queue->periodicMIeUpdate(codePt);
+	resched(t); //reschedule timer
+}
+
+
+double acPolicy::updateRScore(double mie){
+	return (94-4*(aps.pp.bufferSize/aps.pp.capacity)-mie);
+}

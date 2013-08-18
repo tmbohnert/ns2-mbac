@@ -1,0 +1,1676 @@
+
+
++++++++ MBAC BASED ON HOEFFDING BOUNDS +++++++
+
+Configuration:
+	 simTime: 1000
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 1000 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = FHB
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 1000000.0 bps
+			bufferSize = 15000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.010000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+		DIPE: Disabled
+			DIPE Factor: 0.000000
+		FLOWMONE: Disabled
+			Min Flow ID: 0.000000
+			Max Flow ID: 0.000000
+			Dump Record at: 0.000000
+	Estimator:
+		estType = FHBEST
+		EMWA weights (ep.w[]) = 0.048771 0.095163 0.139292 0.181269 0.221199 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 50.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.200000 	       
+		Tracing: Enabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+0.37: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 0.37 Admitted
+	DTS = 0 				
+	Number admissions = 1
+	Number rejections = 0
+
+
+
+10.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 1
+Next revision at 20.00
+
+
+20.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 1
+Next revision at 30.00
+
+
+20.06: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 20.06 Admitted
+	DTS = 0 				
+	Number admissions = 2
+	Number rejections = 0
+
+
+
+22.71: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 22.71 Admitted
+	DTS = 0 				
+	Number admissions = 3
+	Number rejections = 0
+
+
+
+30.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 3
+Next revision at 40.00
+
+
+33.37: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 33.37 Admitted
+	DTS = 0 				
+	Number admissions = 4
+	Number rejections = 0
+
+
+
+39.70: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 39.70 Admitted
+	DTS = 0 				
+	Number admissions = 5
+	Number rejections = 0
+
+
+
+40.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 5
+Next revision at 50.00
+
+
+40.30: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 40.30 Admitted
+	DTS = 0 				
+	Number admissions = 6
+	Number rejections = 0
+
+
+
+41.20: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 41.20 Admitted
+	DTS = 0 				
+	Number admissions = 7
+	Number rejections = 0
+
+
+
+44.07: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 44.07 Admitted
+	DTS = 0 				
+	Number admissions = 8
+	Number rejections = 0
+
+
+
+44.24: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 44.24 Admitted
+	DTS = 0 				
+	Number admissions = 9
+	Number rejections = 0
+
+
+
+47.93: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 47.93 Admitted
+	DTS = 0 				
+	Number admissions = 10
+	Number rejections = 0
+
+
+
+50.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 10
+Next revision at 60.00
+
+
+50.83: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 50.83 Admitted
+	DTS = 0 				
+	Number admissions = 11
+	Number rejections = 0
+
+
+
+52.01: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 52.01 Admitted
+	DTS = 0 				
+	Number admissions = 12
+	Number rejections = 0
+
+
+
+52.61: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 52.61 Admitted
+	DTS = 0 				
+	Number admissions = 13
+	Number rejections = 0
+
+
+
+56.87: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 56.87 Admitted
+	DTS = 0 				
+	Number admissions = 14
+	Number rejections = 0
+
+
+
+60.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 14
+Next revision at 70.00
+
+
+65.69: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Charging stage: MaxNumFlows = 15
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 0.000) -> Flow at 65.69 Admitted
+	DTS = 0 				
+	Number admissions = 15
+	Number rejections = 0
+
+
+
+66.33: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 376126.080) -> Flow at 66.33 Admitted
+	DTS = 1 				
+	Number admissions = 16
+	Number rejections = 0
+
+++ Change Point Detection initiated for timescale 2
+
+++ Change Point Detection initiated for timescale 4
+
+++ Change Point Detection initiated for timescale 1
+
+++ Change Point Detection initiated for timescale 3
+
+++ Change Point Detection initiated for timescale 5
+
+
+
+70.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 16
+Next revision at 80.00
+
+
+71.31: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 405384.853) -> Flow at 71.31 Admitted
+	DTS = 5 				
+	Number admissions = 17
+	Number rejections = 0
+
+
+
+71.94: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 417340.297) -> Flow at 71.94 Admitted
+	DTS = 5 				
+	Number admissions = 18
+	Number rejections = 0
+
+
+
+74.14: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 428948.985) -> Flow at 74.14 Admitted
+	DTS = 5 				
+	Number admissions = 19
+	Number rejections = 0
+
+There is a change!
+There is a change!
+
+
+78.16: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 440239.444) -> Flow at 78.16 Admitted
+	DTS = 5 				
+	Number admissions = 20
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+80.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 20
+Next revision at 90.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+84.17: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 451236.495) -> Flow at 84.17 Admitted
+	DTS = 5 				
+	Number admissions = 21
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+84.83: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 461961.887) -> Flow at 84.83 Admitted
+	DTS = 5 				
+	Number admissions = 22
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+87.55: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 473950.614) -> Flow at 87.55 Admitted
+	DTS = 2 				
+	Number admissions = 23
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+90.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 23
+Next revision at 100.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+92.43: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 493290.882) -> Flow at 92.43 Admitted
+	DTS = 3 				
+	Number admissions = 24
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+93.03: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 504608.131) -> Flow at 93.03 Admitted
+	DTS = 3 				
+	Number admissions = 25
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+94.91: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 525054.281) -> Flow at 94.91 Admitted
+	DTS = 4 				
+	Number admissions = 26
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+97.50: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 541720.531) -> Flow at 97.50 Admitted
+	DTS = 4 				
+	Number admissions = 27
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+98.26: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 553437.159) -> Flow at 98.26 Admitted
+	DTS = 4 				
+	Number admissions = 28
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+98.45: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 565382.436) -> Flow at 98.45 Admitted
+	DTS = 4 				
+	Number admissions = 29
+	Number rejections = 0
+
+There is a change!
+
+
+98.60: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 574478.470) -> Flow at 98.60 Admitted
+	DTS = 4 				
+	Number admissions = 30
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+100.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 30
+Next revision at 110.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+102.86: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 592736.576) -> Flow at 102.86 Admitted
+	DTS = 5 				
+	Number admissions = 31
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+106.48: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 617900.347) -> Flow at 106.48 Admitted
+	DTS = 5 				
+	Number admissions = 32
+	Number rejections = 0
+
+There is a change!
+
+
+106.60: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 626552.341) -> Flow at 106.60 Admitted
+	DTS = 5 				
+	Number admissions = 33
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+
+
+106.89: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 635070.171) -> Flow at 106.89 Admitted
+	DTS = 5 				
+	Number admissions = 34
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+107.69: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 646405.151) -> Flow at 107.69 Admitted
+	DTS = 5 				
+	Number admissions = 35
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+110.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 35
+Next revision at 120.00
+There is a change!
+There is a change!
+There is a change!
+
+
+110.12: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 662075.006) -> Flow at 110.12 Admitted
+	DTS = 5 				
+	Number admissions = 36
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+110.41: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 670224.946) -> Flow at 110.41 Admitted
+	DTS = 5 				
+	Number admissions = 37
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+116.10: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 678543.213) -> Flow at 116.10 Admitted
+	DTS = 5 				
+	Number admissions = 38
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+119.43: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 685138.704) -> Flow at 119.43 Admitted
+	DTS = 5 				
+	Number admissions = 39
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+120.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 39
+Next revision at 130.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+122.43: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 697884.865) -> Flow at 122.43 Admitted
+	DTS = 5 				
+	Number admissions = 40
+	Number rejections = 0
+
+
+
+122.53: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 705611.101) -> Flow at 122.53 Admitted
+	DTS = 5 				
+	Number admissions = 41
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+
+
+122.81: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 713241.348) -> Flow at 122.81 Admitted
+	DTS = 5 				
+	Number admissions = 42
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+123.24: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 718008.624) -> Flow at 123.24 Admitted
+	DTS = 5 				
+	Number admissions = 43
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+128.33: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 739094.593) -> Flow at 128.33 Admitted
+	DTS = 5 				
+	Number admissions = 44
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+130.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 44
+Next revision at 140.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+135.71: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 749009.336) -> Flow at 135.71 Admitted
+	DTS = 5 				
+	Number admissions = 45
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+140.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 45
+Next revision at 150.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+147.97: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 759666.681) -> Flow at 147.97 Admitted
+	DTS = 5 				
+	Number admissions = 46
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+148.29: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 762646.702) -> Flow at 148.29 Admitted
+	DTS = 5 				
+	Number admissions = 47
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+150.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 47
+Next revision at 160.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+151.20: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 773004.227) -> Flow at 151.20 Admitted
+	DTS = 5 				
+	Number admissions = 48
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+156.07: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 781389.939) -> Flow at 156.07 Admitted
+	DTS = 5 				
+	Number admissions = 49
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+157.11: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 786746.612) -> Flow at 157.11 Admitted
+	DTS = 5 				
+	Number admissions = 50
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+160.00: Policy Flow Activity Monitor
+Expired admissions 3
+Total Number of Admissions 47
+Next revision at 170.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+161.48: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 770125.232) -> Flow at 161.48 Admitted
+	DTS = 5 				
+	Number admissions = 48
+	Number rejections = 0
+
+
+
+161.48: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 777170.817) -> Flow at 161.48 Admitted
+	DTS = 5 				
+	Number admissions = 49
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+163.38: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 790004.439) -> Flow at 163.38 Admitted
+	DTS = 5 				
+	Number admissions = 50
+	Number rejections = 0
+
+There is a change!
+
+
+163.52: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 796906.214) -> Flow at 163.52 Admitted
+	DTS = 5 				
+	Number admissions = 51
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+167.01: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 799146.161) -> Flow at 167.01 Admitted
+	DTS = 5 				
+	Number admissions = 52
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+168.56: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 803539.354) -> Flow at 168.56 Admitted
+	DTS = 5 				
+	Number admissions = 53
+	Number rejections = 0
+
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+170.00: Policy Flow Activity Monitor
+Expired admissions 1
+Total Number of Admissions 52
+Next revision at 180.00
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+There is a change!
+
+
+170.92: New flow detected, calling FHB admission algorithm
+Class 0::FHB - Saturation stage
+Class 0::FHB (pLoss = 0.01000, capacity = 1000000.00, ebHatMax = 811589.628) -> Flow at 170.92 Admitted
+	DTS = 5 				
+	Number admissions = 53
+	Number rejections = 0
+
+There is a change!
+There

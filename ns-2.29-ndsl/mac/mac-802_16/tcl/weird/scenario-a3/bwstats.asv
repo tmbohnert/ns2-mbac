@@ -1,0 +1,17 @@
+
+
+
+function [bw] = bwstats( data )
+
+sz=size(data);
+i=1
+while(i<sz(1,1))
+    vol=0; z=0;
+    while(data(i,1)==data(i+z,1) && (i+z) < )
+        vol+=data(i+z,2);
+        if((i+z)==sz(1,1))
+            break;
+    end
+    
+        
+    

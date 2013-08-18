@@ -1,0 +1,14 @@
+Sun May  5 00:41:49 WEST 2007
+		Bug in scheduler found. Basically, more bandwidth is used as has been granted.
+
+Sun May  6 00:45:21 WEST 2007
+	Start fixing the scheduler bug. For now only focus on UL and UGS traffic
+	Modifcations are marked with "bugfix_one"
+	Modified files
+		queue.h
+		mac-802.16.cc
+
+Sun May  6 01:02:39 WEST 2007
+	Bug in bandwidth requesting found. No bandwidth requested for BE traffic.
+		
+	

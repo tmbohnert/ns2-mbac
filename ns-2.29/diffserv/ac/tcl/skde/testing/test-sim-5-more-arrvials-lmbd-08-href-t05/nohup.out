@@ -1,0 +1,1762 @@
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.010000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.010000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.010000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.010000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.001000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.001000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.001000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.001000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000100
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000100
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000100
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000100
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000010
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000010
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000010
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+CONFIGURE QUEUE MONITORING
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 bit
+			peakRate = 64000.0 bps
+			pLoss = 0.000010
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Enabled
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = true
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) =21715 34055 46395 58735 71075 
+		Tracing = Enabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: POO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES
+Simulation runs for 4100 s
+Ready for take off!
+<<<<<<<<<<>>>>>>>>>>>>>>>
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+ADC SETUP FOR DSCP:0
+Selected MBAC algorithm: adcType = SKDE
+	Policy Module:
+		polType = ACCEPT
+		Network & Source settings:
+			capacity = 5000000.0 bps
+			bufferSize = 75000.0 			bit
+			peakRate = 64000.0 bps
+			pLoss = 0.010000
+		Flow managment:
+			checkPeriod = 10.00
+			flowTimerout = 50.00
+		Tracing: Disabled
+		DIPE: Disabled
+		DIPE Factor: 0.000000
+	Estimator:
+		estType = SKDEEST
+		Use plug-in bandwidth = false
+		Plug-in steps = 4
+		Monitored thresholds (ep.x[]) = 21715 34055 46395 58735 71075 
+		Interval Estimate = Disabled
+		Tracing = Disabled
+	Meter: 	       
+		Window length (mp.wlen) = 20.000000 	       
+		Scaling factor (mp.tsm) = 5 	       
+		Sample period (mp.tau) = 0.020000 	       
+		Tracing: Disabled
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+0.18: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 0.18 Admitted
+	DTS = 				4
+	Number admissions = 1
+	Number rejections = 0
+
+7.00: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 7.00 Admitted
+	DTS = 				4
+	Number admissions = 2
+	Number rejections = 0
+
+7.17: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 7.17 Admitted
+	DTS = 				4
+	Number admissions = 3
+	Number rejections = 0
+
+10.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 3
+Next revision at 20.00
+
+
+10.47: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 10.47 Admitted
+	DTS = 				4
+	Number admissions = 4
+	Number rejections = 0
+
+12.39: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 12.39 Admitted
+	DTS = 				4
+	Number admissions = 5
+	Number rejections = 0
+
+13.02: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 13.02 Admitted
+	DTS = 				4
+	Number admissions = 6
+	Number rejections = 0
+
+13.24: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 13.24 Admitted
+	DTS = 				4
+	Number admissions = 7
+	Number rejections = 0
+
+14.26: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 14.26 Admitted
+	DTS = 				4
+	Number admissions = 8
+	Number rejections = 0
+
+14.26: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 14.26 Admitted
+	DTS = 				4
+	Number admissions = 9
+	Number rejections = 0
+
+15.82: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 15.82 Admitted
+	DTS = 				4
+	Number admissions = 10
+	Number rejections = 0
+
+16.79: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 16.79 Admitted
+	DTS = 				4
+	Number admissions = 11
+	Number rejections = 0
+
+16.89: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 16.89 Admitted
+	DTS = 				4
+	Number admissions = 12
+	Number rejections = 0
+
+17.00: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 17.00 Admitted
+	DTS = 				4
+	Number admissions = 13
+	Number rejections = 0
+
+18.43: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 18.43 Admitted
+	DTS = 				4
+	Number admissions = 14
+	Number rejections = 0
+
+20.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 14
+Next revision at 30.00
+
+
+20.89: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 20.89 Admitted
+	DTS = 				4
+	Number admissions = 15
+	Number rejections = 0
+
+21.18: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 21.18 Admitted
+	DTS = 				4
+	Number admissions = 16
+	Number rejections = 0
+
+22.97: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 22.97 Admitted
+	DTS = 				4
+	Number admissions = 17
+	Number rejections = 0
+
+23.45: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 23.45 Admitted
+	DTS = 				4
+	Number admissions = 18
+	Number rejections = 0
+
+24.27: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 24.27 Admitted
+	DTS = 				4
+	Number admissions = 19
+	Number rejections = 0
+
+25.15: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 25.15 Admitted
+	DTS = 				4
+	Number admissions = 20
+	Number rejections = 0
+
+27.02: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 27.02 Admitted
+	DTS = 				4
+	Number admissions = 21
+	Number rejections = 0
+
+27.21: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 27.21 Admitted
+	DTS = 				4
+	Number admissions = 22
+	Number rejections = 0
+
+28.12: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 28.12 Admitted
+	DTS = 				4
+	Number admissions = 23
+	Number rejections = 0
+
+29.15: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 29.15 Admitted
+	DTS = 				4
+	Number admissions = 24
+	Number rejections = 0
+
+30.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 24
+Next revision at 40.00
+
+
+30.42: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 30.42 Admitted
+	DTS = 				4
+	Number admissions = 25
+	Number rejections = 0
+
+30.69: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 30.69 Admitted
+	DTS = 				4
+	Number admissions = 26
+	Number rejections = 0
+
+30.99: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 30.99 Admitted
+	DTS = 				4
+	Number admissions = 27
+	Number rejections = 0
+
+31.27: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 31.27 Admitted
+	DTS = 				4
+	Number admissions = 28
+	Number rejections = 0
+
+31.47: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 31.47 Admitted
+	DTS = 				4
+	Number admissions = 29
+	Number rejections = 0
+
+31.52: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 31.52 Admitted
+	DTS = 				4
+	Number admissions = 30
+	Number rejections = 0
+
+33.38: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 33.38 Admitted
+	DTS = 				4
+	Number admissions = 31
+	Number rejections = 0
+
+34.00: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 34.00 Admitted
+	DTS = 				4
+	Number admissions = 32
+	Number rejections = 0
+
+34.34: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 34.34 Admitted
+	DTS = 				4
+	Number admissions = 33
+	Number rejections = 0
+
+34.53: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 34.53 Admitted
+	DTS = 				4
+	Number admissions = 34
+	Number rejections = 0
+
+34.70: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 34.70 Admitted
+	DTS = 				4
+	Number admissions = 35
+	Number rejections = 0
+
+34.83: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 34.83 Admitted
+	DTS = 				4
+	Number admissions = 36
+	Number rejections = 0
+
+35.62: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 35.62 Admitted
+	DTS = 				4
+	Number admissions = 37
+	Number rejections = 0
+
+37.12: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 37.12 Admitted
+	DTS = 				4
+	Number admissions = 38
+	Number rejections = 0
+
+37.83: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 37.83 Admitted
+	DTS = 				4
+	Number admissions = 39
+	Number rejections = 0
+
+39.23: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 39.23 Admitted
+	DTS = 				4
+	Number admissions = 40
+	Number rejections = 0
+
+39.41: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 39.41 Admitted
+	DTS = 				4
+	Number admissions = 41
+	Number rejections = 0
+
+39.47: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 39.47 Admitted
+	DTS = 				4
+	Number admissions = 42
+	Number rejections = 0
+
+39.53: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 39.53 Admitted
+	DTS = 				4
+	Number admissions = 43
+	Number rejections = 0
+
+40.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 43
+Next revision at 50.00
+
+
+41.25: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 41.25 Admitted
+	DTS = 				4
+	Number admissions = 44
+	Number rejections = 0
+
+43.63: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 43.63 Admitted
+	DTS = 				4
+	Number admissions = 45
+	Number rejections = 0
+
+47.06: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 47.06 Admitted
+	DTS = 				4
+	Number admissions = 46
+	Number rejections = 0
+
+47.50: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 47.50 Admitted
+	DTS = 				4
+	Number admissions = 47
+	Number rejections = 0
+
+48.48: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 48.48 Admitted
+	DTS = 				4
+	Number admissions = 48
+	Number rejections = 0
+
+50.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 48
+Next revision at 60.00
+
+
+50.01: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 50.01 Admitted
+	DTS = 				4
+	Number admissions = 49
+	Number rejections = 0
+
+51.11: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 51.11 Admitted
+	DTS = 				4
+	Number admissions = 50
+	Number rejections = 0
+
+51.46: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 51.46 Admitted
+	DTS = 				4
+	Number admissions = 51
+	Number rejections = 0
+
+51.71: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 51.71 Admitted
+	DTS = 				4
+	Number admissions = 52
+	Number rejections = 0
+
+52.31: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 52.31 Admitted
+	DTS = 				4
+	Number admissions = 53
+	Number rejections = 0
+
+52.41: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 52.41 Admitted
+	DTS = 				4
+	Number admissions = 54
+	Number rejections = 0
+
+53.58: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 53.58 Admitted
+	DTS = 				4
+	Number admissions = 55
+	Number rejections = 0
+
+54.52: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 54.52 Admitted
+	DTS = 				4
+	Number admissions = 56
+	Number rejections = 0
+
+57.44: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 57.44 Admitted
+	DTS = 				4
+	Number admissions = 57
+	Number rejections = 0
+
+58.55: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 58.55 Admitted
+	DTS = 				4
+	Number admissions = 58
+	Number rejections = 0
+
+59.76: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 59.76 Admitted
+	DTS = 				4
+	Number admissions = 59
+	Number rejections = 0
+
+59.83: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 59.83 Admitted
+	DTS = 				4
+	Number admissions = 60
+	Number rejections = 0
+
+59.91: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 59.91 Admitted
+	DTS = 				4
+	Number admissions = 61
+	Number rejections = 0
+
+60.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 61
+Next revision at 70.00
+
+
+60.15: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 60.15 Admitted
+	DTS = 				4
+	Number admissions = 62
+	Number rejections = 0
+
+61.42: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 61.42 Admitted
+	DTS = 				4
+	Number admissions = 63
+	Number rejections = 0
+
+62.16: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 62.16 Admitted
+	DTS = 				4
+	Number admissions = 64
+	Number rejections = 0
+
+63.12: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 63.12 Admitted
+	DTS = 				4
+	Number admissions = 65
+	Number rejections = 0
+
+63.22: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 63.22 Admitted
+	DTS = 				4
+	Number admissions = 66
+	Number rejections = 0
+
+65.29: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 65.29 Admitted
+	DTS = 				4
+	Number admissions = 67
+	Number rejections = 0
+
+65.57: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 65.57 Admitted
+	DTS = 				4
+	Number admissions = 68
+	Number rejections = 0
+
+66.87: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 66.87 Admitted
+	DTS = 				4
+	Number admissions = 69
+	Number rejections = 0
+
+67.99: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 67.99 Admitted
+	DTS = 				4
+	Number admissions = 70
+	Number rejections = 0
+
+68.54: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 68.54 Admitted
+	DTS = 				4
+	Number admissions = 71
+	Number rejections = 0
+
+68.78: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 68.78 Admitted
+	DTS = 				4
+	Number admissions = 72
+	Number rejections = 0
+
+69.48: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 69.48 Admitted
+	DTS = 				4
+	Number admissions = 73
+	Number rejections = 0
+
+70.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 73
+Next revision at 80.00
+
+
+71.41: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 71.41 Admitted
+	DTS = 				4
+	Number admissions = 74
+	Number rejections = 0
+
+71.67: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 71.67 Admitted
+	DTS = 				4
+	Number admissions = 75
+	Number rejections = 0
+
+71.93: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 71.93 Admitted
+	DTS = 				4
+	Number admissions = 76
+	Number rejections = 0
+
+72.01: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 72.01 Admitted
+	DTS = 				4
+	Number admissions = 77
+	Number rejections = 0
+
+72.03: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Charging stage: MaxNumFlows = 78
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 72.03 Admitted
+	DTS = 				4
+	Number admissions = 78
+	Number rejections = 0
+
+72.19: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 72.19 Admitted
+	DTS = 				0
+	Number admissions = 79
+	Number rejections = 0
+
+72.45: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 72.45 Admitted
+	DTS = 				0
+	Number admissions = 80
+	Number rejections = 0
+
+72.76: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 72.76 Admitted
+	DTS = 				0
+	Number admissions = 81
+	Number rejections = 0
+
+73.01: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 73.01 Admitted
+	DTS = 				0
+	Number admissions = 82
+	Number rejections = 0
+
+73.71: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 73.71 Admitted
+	DTS = 				0
+	Number admissions = 83
+	Number rejections = 0
+
+74.35: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 74.35 Admitted
+	DTS = 				0
+	Number admissions = 84
+	Number rejections = 0
+
+74.61: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 74.61 Admitted
+	DTS = 				0
+	Number admissions = 85
+	Number rejections = 0
+
+74.63: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 74.63 Admitted
+	DTS = 				0
+	Number admissions = 86
+	Number rejections = 0
+
+74.88: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 74.88 Admitted
+	DTS = 				0
+	Number admissions = 87
+	Number rejections = 0
+
+76.36: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 76.36 Admitted
+	DTS = 				0
+	Number admissions = 88
+	Number rejections = 0
+
+77.11: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 77.11 Admitted
+	DTS = 				0
+	Number admissions = 89
+	Number rejections = 0
+
+77.58: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 77.58 Admitted
+	DTS = 				0
+	Number admissions = 90
+	Number rejections = 0
+
+78.37: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 78.37 Admitted
+	DTS = 				0
+	Number admissions = 91
+	Number rejections = 0
+
+80.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 91
+Next revision at 90.00
+
+
+85.28: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 85.28 Admitted
+	DTS = 				0
+	Number admissions = 92
+	Number rejections = 0
+
+87.43: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 87.43 Admitted
+	DTS = 				0
+	Number admissions = 93
+	Number rejections = 0
+
+88.18: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 88.18 Admitted
+	DTS = 				0
+	Number admissions = 94
+	Number rejections = 0
+
+88.53: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 88.53 Admitted
+	DTS = 				0
+	Number admissions = 95
+	Number rejections = 0
+
+88.56: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 88.56 Admitted
+	DTS = 				0
+	Number admissions = 96
+	Number rejections = 0
+
+90.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 96
+Next revision at 100.00
+
+
+91.25: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 91.25 Admitted
+	DTS = 				0
+	Number admissions = 97
+	Number rejections = 0
+
+93.15: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 93.15 Admitted
+	DTS = 				0
+	Number admissions = 98
+	Number rejections = 0
+
+93.18: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 93.18 Admitted
+	DTS = 				0
+	Number admissions = 99
+	Number rejections = 0
+
+97.63: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 97.63 Admitted
+	DTS = 				0
+	Number admissions = 100
+	Number rejections = 0
+
+98.50: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 98.50 Admitted
+	DTS = 				0
+	Number admissions = 101
+	Number rejections = 0
+
+98.85: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 98.85 Admitted
+	DTS = 				0
+	Number admissions = 102
+	Number rejections = 0
+
+99.02: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 99.02 Admitted
+	DTS = 				0
+	Number admissions = 103
+	Number rejections = 0
+
+100.00: Policy Flow Activity Monitor
+Expired admissions 0
+Total Number of Admissions 103
+Next revision at 110.00
+
+
+100.25: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 100.25 Admitted
+	DTS = 				0
+	Number admissions = 104
+	Number rejections = 0
+
+101.28: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 101.28 Admitted
+	DTS = 				0
+	Number admissions = 105
+	Number rejections = 0
+
+103.02: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 103.02 Admitted
+	DTS = 				0
+	Number admissions = 106
+	Number rejections = 0
+
+103.23: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 103.23 Admitted
+	DTS = 				0
+	Number admissions = 107
+	Number rejections = 0
+
+103.71: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 103.71 Admitted
+	DTS = 				0
+	Number admissions = 108
+	Number rejections = 0
+
+103.81: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 103.81 Admitted
+	DTS = 				0
+	Number admissions = 109
+	Number rejections = 0
+
+104.50: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 104.50 Admitted
+	DTS = 				0
+	Number admissions = 110
+	Number rejections = 0
+
+105.10: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 105.10 Admitted
+	DTS = 				0
+	Number admissions = 111
+	Number rejections = 0
+
+106.94: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 106.94 Admitted
+	DTS = 				0
+	Number admissions = 112
+	Number rejections = 0
+
+109.53: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 109.53 Admitted
+	DTS = 				0
+	Number admissions = 113
+	Number rejections = 0
+
+110.00: Policy Flow Activity Monitor
+Expired admissions 2
+Total Number of Admissions 111
+Next revision at 120.00
+
+
+110.30: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 110.30 Admitted
+	DTS = 				0
+	Number admissions = 112
+	Number rejections = 0
+
+111.55: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 111.55 Admitted
+	DTS = 				0
+	Number admissions = 113
+	Number rejections = 0
+
+111.75: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 111.75 Admitted
+	DTS = 				0
+	Number admissions = 114
+	Number rejections = 0
+
+113.46: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 113.46 Admitted
+	DTS = 				0
+	Number admissions = 115
+	Number rejections = 0
+
+113.70: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 113.70 Admitted
+	DTS = 				0
+	Number admissions = 116
+	Number rejections = 0
+
+114.75: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 114.75 Admitted
+	DTS = 				0
+	Number admissions = 117
+	Number rejections = 0
+
+115.53: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 115.53 Admitted
+	DTS = 				0
+	Number admissions = 118
+	Number rejections = 0
+
+116.11: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 116.11 Admitted
+	DTS = 				0
+	Number admissions = 119
+	Number rejections = 0
+
+116.85: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 116.85 Admitted
+	DTS = 				0
+	Number admissions = 120
+	Number rejections = 0
+
+117.75: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 117.75 Admitted
+	DTS = 				0
+	Number admissions = 121
+	Number rejections = 0
+
+117.78: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 117.78 Admitted
+	DTS = 				0
+	Number admissions = 122
+	Number rejections = 0
+
+117.83: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 117.83 Admitted
+	DTS = 				0
+	Number admissions = 123
+	Number rejections = 0
+
+118.26: New flow detected, calling SKDE admission algorithm
+Class 0::SKDE - Saturation stage
+Class 0::SKDE (pLoss = 0.01000, pLoosHatMax = 0.00000) -> Flow at 118.26 Admit./runSim-5.sh: line 11: 25164 Terminated              nsttn ../skde-href-5mb.tcl $simTime 0 Voip POO $lossExp
+./runSim-5.sh: line 19: gawk: command not found
+
+
++++++++ MBAC BASED ON SIMPLE KERNEL DENSITY ESTIMATION +++++++
+
+Configuration:
+	 simTime: 4100
+	 numSources: 0
+	 appType: Voip
+	 srcModel: EXPOO
+
+NETWORK TOPOLOGY SETUP
+DIFFSERV QUEUE CONFIGURATION
+GENERATE RANDOM VARIABLES
+GENERATE SOURCES

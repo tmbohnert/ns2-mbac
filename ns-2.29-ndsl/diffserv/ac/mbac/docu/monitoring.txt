@@ -1,0 +1,81 @@
+# bothom:mbac
+
+
+Simulator instproc monitor-queue { n1 n2 qtrace { sampleInterval 0.1 } } {
+	$self instvar link_
+	return [$link_([$n1 id]:[$n2 id]) init-monitor $self $qtrace $sampleInterval]
+}
+
+SimpleLink instproc init-monitor { ns qtrace sampleInterval} {
+	$self instvar qMonitor_ ns_ qtrace_ sampleInterval_
+
+	set ns_ $ns
+	set qtrace_ $qtrace
+	set sampleInterval_ $sampleInterval
+	set qMonitor_ [new QueueMonitor]
+
+	$self attach-monitors [new SnoopQueue/In] \
+		[new SnoopQueue/Out] [new SnoopQueue/Drop] $qMonitor_
+
+	set bytesInt_ [new Integrator]
+	$qMonitor_ set-bytes-integrator $bytesInt_
+	set pktsInt_ [new Integrator]
+	$qMonitor_ set-pkts-integrator $pktsInt_
+	return $qMonitor_
+}
+
+SimpleLink instproc attach-monitors { insnoop outsnoop dropsnoop qmon } {
+	$self instvar drpT_ queue_ snoopIn_ snoopOut_ snoopDrop_
+	$self instvar qMonitor_ drophead_
+
+	set snoopIn_ $insnoop
+	set snoopOut_ $outsnoop
+	set snoopDrop_ $dropsnoop
+
+	$self add-to-head $snoopIn_
+
+	$snoopOut_ target [$queue_ target]
+	$queue_ target $snoopOut_
+
+	set nxt [$drophead_ target]
+	$drophead_ target $snoopDrop_
+	$snoopDrop_ target $nxt
+	
+	$snoopIn_ set-monitor $qmon
+	$snoopOut_ set-monitor $qmon
+	$snoopDrop_ set-monitor $qmon
+	set qMonitor_ $qmon
+}
+
+class SnoopQueueDrop : public SnoopQueue {
+	public:
+	void recv(Packet* p, Handler* h) {
+		qm_->drop(p);
+		send(p, h);
+}
+};
+
+void QueueMonitor::drop(Packet* p)
+{
+	hdr_cmn* hdr = hdr_cmn::access(p);
+	double now = Scheduler::instance().clock();
+	int pktsz = hdr->size();
+	hdr_flags* pf = hdr_flags::access(p);
+
+	size_ -= pktsz;
+	pkts_--;
+	bdrops_ += pktsz;
+	pdrops_++;
+
+	if (pf->qs())
+		qs_drops_++;
+
+	if (bytesInt_)
+		bytesInt_->newPoint(now, double(size_));
+	if (pktsInt_)
+		pktsInt_->newPoint(now, double(pkts_));
+	if (channel_)
+		printStats();
+}
+
+

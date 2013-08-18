@@ -1,0 +1,7 @@
+data=load('t_bytes.dat');
+
+for i = numel(data(:,1))-1
+    csum=data(i, sum(1:i));
+end
+
+plot(csum);

@@ -1,0 +1,8 @@
+VERSION FILE, Created on 20.11.2006
+
+
+20.11.2006 - Features
+	Interval Estimate
+	Multi-scale
+	SKDE	
+ 

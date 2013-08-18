@@ -1,0 +1,39 @@
+VERSION FILE, Created on 20.11.2006
+
+
+20.11.2006 - Features
+	Interval Estimate
+	Multi-scale
+	SKDE	
+ 
+20.01.2007
+	Delayed Impact Perception Extension, DIPE, v001
+
+21.02.2007
+	BUG Fix in acPolicy.cc in acPolicy::flowInActivityCheck()
+	Modified files: acPolicy.h and acPolicy.h
+	DESC: 
+
+08..04.2007
+	Intital comments for Change Point Detection Extension, CPDE, v001
+
+08.04.2007
+	BUG FIX in acPolicy::acPolicy(adcParameterSet aps)
+	DESC: Missing differenation between SSUM and SKDE added regarding the arguments for opening a trace file
+
+10.05.2007
+	Sally Floyd's MBAC algorithm added - Named FHB (Floyd Hoeffding Bound)
+
+29.08.2007
+	AC based on Objective QoS Assessment (OQA) added. Version is based on the EModel. It lacks new flow impact prediction.
+
+11.09.2007
+	AC based on Objective QoS Assessment (OQA) revised and updated. Version is now 1.0.
+					
+11.09.2007
+	Stand alone emodel evaluation tool for per flow stats added. Located in folder workspace/emodel
+		
+#eof
+
+	
+

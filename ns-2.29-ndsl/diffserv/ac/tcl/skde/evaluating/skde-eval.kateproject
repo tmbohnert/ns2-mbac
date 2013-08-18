@@ -1,0 +1,59 @@
+[Dir mts]
+Dirs=
+Files=calcStdStats.awk/runSim.sh/skde-hhat.tcl/skde-href.tcl
+
+[Dir mts/exp-1-1Mbps]
+Dirs=
+Files=allResInOne.txt/voip-expoo-hhat-results.txt/voip-expoo-href-results.txt/voip-poo-hhat-results.txt/voip-poo-href-results.txt
+
+[Dir mts/exp-2-10Mbps]
+Dirs=voip-expoo-hhat-3/voip-expoo-href-3
+Files=voip-expoo-hhat-results.txt/voip-expoo-href-results.txt/voip-poo-hhat-results.txt/voip-poo-href-results.txt/nohup.out/resAllInOne.txt
+
+[Dir mts/exp-2-10Mbps/voip-expoo-hhat-3]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/exp-2-10Mbps/voip-expoo-href-3]
+Dirs=
+Files=acTrace-0.tr
+
+[Dir mts/poo-href-1]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/poo-href-2]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/poo-href-3]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/poo-href-4]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/poo-href-5]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/poo-href-6]
+Dirs=
+Files=acTrace-0.tr/qmon
+
+[Dir mts/voip-poo-href-1]
+Dirs=
+Files=acTrace-0.tr
+
+[Dir sts]
+Dirs=
+Files=script.sh/results_engine.sh/getlinkLoad.awk
+
+[Project Dir]
+Dirs=mts
+Files=
+
+[Project File]
+Name=skde-eval
+Type=Default
